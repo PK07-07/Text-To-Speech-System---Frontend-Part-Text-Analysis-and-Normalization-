@@ -1,27 +1,24 @@
 """Idempotence verification test suite for text_frontend.
 
-Verifies that for all test cases across check_phase1, check_phase2,
-check_phase2_edge, check_phase3, check_phase3_edge, check_phase4,
-and check_phase4_edge:
+Verifies that for test cases across all development phases:
     normalize(normalize(x).normalized_text) == normalize(x).normalized_text
 """
 
 from __future__ import annotations
 
+import json
+from pathlib import Path
 import pytest
 from text_frontend import NormalizerConfig, normalize
 
 
-def _collect_all_idempotence_cases() -> list[tuple[str, str, NormalizerConfig]]:
-    import check_phase2
-    import check_phase2_edge
-    import check_phase3
-    import check_phase4
-    import check_phase4_edge
+DATA_DIR = Path(__file__).parent / "data"
 
+
+def _collect_all_idempotence_cases() -> list[tuple[str, str, NormalizerConfig]]:
     cases: list[tuple[str, str, NormalizerConfig]] = []
 
-    # Phase 1
+    # Phase 1 baseline inputs
     p1_inputs = [
         "I paid $12.50.",
         "(15% of users) and ($500 per month) and (2020)",
@@ -41,29 +38,38 @@ def _collect_all_idempotence_cases() -> list[tuple[str, str, NormalizerConfig]]:
     cases.append(("phase1", "₹1,00,000", NormalizerConfig.for_locale("en-IN")))
     cases.append(("phase1", "1,00,000", NormalizerConfig.for_locale("en-US")))
 
-    # Phase 2
-    for t, kw in check_phase2.cases:
-        loc = kw.get("locale", "en-US")
-        cases.append(("phase2", t, NormalizerConfig.for_locale(loc)))
+    # Load from phase2_corpus.json
+    p2_file = DATA_DIR / "phase2_corpus.json"
+    if p2_file.exists():
+        with open(p2_file, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                loc = item.get("locale", "en-US")
+                cases.append(("phase2", item["input"], NormalizerConfig.for_locale(loc)))
 
-    # Phase 2 edge
-    for item in check_phase2_edge.edge_cases:
-        t = item[0]
-        kw = item[2] if len(item) > 2 else {}
-        loc = kw.get("locale", "en-US")
-        cases.append(("phase2_edge", t, NormalizerConfig.for_locale(loc)))
+    # Load from phase3_corpus.json
+    p3_file = DATA_DIR / "phase3_corpus.json"
+    if p3_file.exists():
+        with open(p3_file, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                loc = item.get("locale", "en-US")
+                cases.append(("phase3", item["input"], NormalizerConfig.for_locale(loc)))
 
-    # Phase 3
-    for t, exp, loc in check_phase3.CASES:
-        cases.append(("phase3", t, NormalizerConfig.for_locale(loc)))
+    # Load from phase4_corpus.json
+    p4_file = DATA_DIR / "phase4_corpus.json"
+    if p4_file.exists():
+        with open(p4_file, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                cfg_d = item.get("config", {})
+                cfg = NormalizerConfig(**cfg_d) if cfg_d else NormalizerConfig.for_locale(item.get("locale", "en-US"))
+                cases.append(("phase4", item["input"], cfg))
 
-    # Phase 4
-    for c in check_phase4.CASES:
-        cases.append(("phase4", c["input"], c["config"]))
-
-    # Phase 4 edge
-    for c in check_phase4_edge.CASES:
-        cases.append(("phase4_edge", c["input"], c["config"]))
+    # Load from realistic_calls.json
+    rc_file = DATA_DIR / "realistic_calls.json"
+    if rc_file.exists():
+        with open(rc_file, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                loc = item.get("locale", "en-US")
+                cases.append(("realistic_calls", item["input"], NormalizerConfig.for_locale(loc)))
 
     return cases
 
