@@ -1,0 +1,625 @@
+[
+  {
+    "category": "date.written.isolated",
+    "input": "Oct 29, 2023",
+    "expected": "October twenty-ninth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.written.sentence",
+    "input": "Meeting on Oct 29, 2023 at noon.",
+    "expected": "Meeting on October twenty-ninth, twenty twenty-three at noon.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.written.dmy.isolated",
+    "input": "29 October 2023",
+    "expected": "October twenty-ninth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "date.written.dmy.sentence",
+    "input": "Born on 29 October 2023 in London.",
+    "expected": "Born on October twenty-ninth, twenty twenty-three in London.",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "date.written.noyear",
+    "input": "Independence day is July 4th.",
+    "expected": "Independence day is July fourth.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.written.weekday",
+    "input": "Event on Mon, Oct 29, 2023.",
+    "expected": "Event on Monday, October twenty-ninth, twenty twenty-three.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.numeric.mdy.isolated",
+    "input": "10/29/2023",
+    "expected": "October twenty-ninth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.numeric.mdy.sentence",
+    "input": "The contract was signed on 10/29/2023.",
+    "expected": "The contract was signed on October twenty-ninth, twenty twenty-three.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.numeric.dmy.isolated",
+    "input": "29/10/2023",
+    "expected": "October twenty-ninth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "date.numeric.dmy.sentence",
+    "input": "The contract was signed on 29/10/2023.",
+    "expected": "The contract was signed on October twenty-ninth, twenty twenty-three.",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "date.iso.isolated",
+    "input": "2023-10-29",
+    "expected": "October twenty-ninth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.iso.sentence",
+    "input": "File timestamp is 2023-10-29.",
+    "expected": "File timestamp is October twenty-ninth, twenty twenty-three.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.ymd.isolated",
+    "input": "2023/10/29",
+    "expected": "October twenty-ninth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.range.isolated",
+    "input": "April 3-5",
+    "expected": "April third to fifth",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.range.sentence",
+    "input": "Conference runs April 3-5, 2024.",
+    "expected": "Conference runs April third to fifth, twenty twenty-four.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.leap_day",
+    "input": "Born on 02/29/2024.",
+    "expected": "Born on February twenty-ninth, twenty twenty-four.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.invalid.feb30",
+    "input": "Due on 02/30/2023.",
+    "expected": "Due on oh two slash thirty slash twenty twenty-three.",
+    "status": "partial",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.invalid.written",
+    "input": "Meeting on April 31, 2023.",
+    "expected": "Meeting on April thirty-one, twenty twenty-three.",
+    "status": "partial",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.12h.isolated",
+    "input": "9:05 AM",
+    "expected": "nine oh five A M",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.12h.sentence",
+    "input": "Breakfast at 9:05 AM sharp.",
+    "expected": "Breakfast at nine oh five A M sharp.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.no_ampm",
+    "input": "Meeting is at 9:05 today.",
+    "expected": "Meeting is at nine oh five today.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.noon",
+    "input": "Lunch at 12:00 PM.",
+    "expected": "Lunch at noon.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.midnight",
+    "input": "Doors close at 12:00 AM.",
+    "expected": "Doors close at midnight.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.24h.midnight",
+    "input": "Reset at 00:00 daily.",
+    "expected": "Reset at midnight daily.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.after_noon",
+    "input": "Bus leaves at 12:01 PM.",
+    "expected": "Bus leaves at twelve oh one P M.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.24h_conversion",
+    "input": "Flight lands at 14:30.",
+    "expected": "Flight lands at two thirty P M.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.timezone_est",
+    "input": "Launch at 09:05:30 EST.",
+    "expected": "Launch at nine oh five and thirty seconds A M E S T.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.timezone_utc",
+    "input": "Sync at 14:30 UTC.",
+    "expected": "Sync at two thirty P M U T C.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.range",
+    "input": "Office hours are 2:00-4:00 PM.",
+    "expected": "Office hours are two to four P M.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "duration.compound.isolated",
+    "input": "2h 30m",
+    "expected": "two hours and thirty minutes",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "duration.compound.sentence",
+    "input": "Trip duration: 2h 30m total.",
+    "expected": "Trip duration: two hours and thirty minutes total.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "duration.single",
+    "input": "Wait 45s please.",
+    "expected": "Wait forty-five seconds please.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "fraction.standard.isolated",
+    "input": "1/2",
+    "expected": "one half",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "fraction.standard.sentence",
+    "input": "Use 1/2 cup of olive oil.",
+    "expected": "Use one half cup of olive oil.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.cooking",
+    "input": "Add 3/4 tsp salt.",
+    "expected": "Add three fourths teaspoon salt.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "fraction.mixed",
+    "input": "Walk 2 1/3 miles today.",
+    "expected": "Walk two and one third miles today.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "fraction.unicode",
+    "input": "Pour ½ cup of milk.",
+    "expected": "Pour one half cup of milk.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "ratio.isolated",
+    "input": "16:9",
+    "expected": "sixteen to nine",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "ratio.sentence",
+    "input": "Set screen aspect ratio to 16:9.",
+    "expected": "Set screen aspect ratio to sixteen to nine.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "range.number.isolated",
+    "input": "10-20",
+    "expected": "ten to twenty",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "range.number.sentence",
+    "input": "Ages 10-20 are eligible.",
+    "expected": "Ages ten to twenty are eligible.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "range.years",
+    "input": "Active during 1995-1999.",
+    "expected": "Active during nineteen ninety-five to nineteen ninety-nine.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "range.currency.usd",
+    "input": "Costs $5-$10 per item.",
+    "expected": "Costs five to ten dollars per item.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "range.currency.gbp",
+    "input": "Price is £5-£10.",
+    "expected": "Price is five to ten pounds.",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "range.currency.magnitudes",
+    "input": "Earned $5K-$10K this week.",
+    "expected": "Earned five thousand to ten thousand dollars this week.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.length.isolated",
+    "input": "5km",
+    "expected": "five kilometers",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.length.sentence",
+    "input": "Run 5km every morning.",
+    "expected": "Run five kilometers every morning.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.mass.singular",
+    "input": "Pack 1 kg of sugar.",
+    "expected": "Pack one kilogram of sugar.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.mass.plural",
+    "input": "Box weighs 10 kg.",
+    "expected": "Box weighs ten kilograms.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.mass.zero",
+    "input": "Weight is 0 kg.",
+    "expected": "Weight is zero kilograms.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.mass.decimal",
+    "input": "Sample is 1.5 kg.",
+    "expected": "Sample is one point five kilograms.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.speed",
+    "input": "Speed limit 60 km/h.",
+    "expected": "Speed limit sixty kilometers per hour.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.temperature",
+    "input": "Room temp is 25°C.",
+    "expected": "Room temp is twenty-five degrees Celsius.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.digital",
+    "input": "Requires 16 GB memory.",
+    "expected": "Requires sixteen gigabytes memory.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.electrical.volts",
+    "input": "Main voltage 120 V.",
+    "expected": "Main voltage one hundred twenty volts.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.electrical.hertz",
+    "input": "Operating frequency 50 Hz.",
+    "expected": "Operating frequency fifty hertz.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.range",
+    "input": "Hike 10-20 km daily.",
+    "expected": "Hike ten to twenty kilometers daily.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.nanp.isolated",
+    "input": "555-123-4567",
+    "expected": "five five five, one two three, four five six seven",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.nanp.sentence",
+    "input": "Reach support at 555-123-4567.",
+    "expected": "Reach support at five five five, one two three, four five six seven.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.nanp.parens",
+    "input": "Call (555) 123-4567.",
+    "expected": "Call five five five, one two three, four five six seven.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.nanp.country_code",
+    "input": "Dial +1-555-123-4567.",
+    "expected": "Dial one, five five five, one two three, four five six seven.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.local_hyphen",
+    "input": "Call 555-0199.",
+    "expected": "Call five five five, oh one nine nine.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.india.mobile",
+    "input": "Contact: +91 98765 43210.",
+    "expected": "Contact: plus nine one, nine eight seven six five, four three two one zero.",
+    "status": "success",
+    "locale": "en-IN"
+  },
+  {
+    "category": "identifier.product_code",
+    "input": "Model RX-78 online.",
+    "expected": "Model R X seventy-eight online.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "identifier.lexicon.covid",
+    "input": "The COVID-19 pandemic.",
+    "expected": "The covid nineteen pandemic.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "identifier.lexicon.f16",
+    "input": "Fighter jet F-16.",
+    "expected": "Fighter jet F sixteen.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "complex.overlap_conflict",
+    "input": "Special price $5-$10 or call 555-0199 on April 3-5 for 10-20 km trip.",
+    "expected": "Special price five to ten dollars or call five five five, oh one nine nine on April third to fifth for ten to twenty kilometers trip.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "fraction.slang",
+    "input": "Open 24/7.",
+    "expected": "Open twenty-four seven.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.attached_m.time",
+    "input": "Wait 30m please.",
+    "expected": "Wait thirty minutes please.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.attached_m.dist",
+    "input": "Run 30m sprints.",
+    "expected": "Run thirty meters sprints.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency.negative",
+    "input": "Rate is -$10.",
+    "expected": "Rate is negative ten dollars.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "number.range.negative",
+    "input": "Temps from -5 to 5 degrees.",
+    "expected": "Temps from negative five to five degrees.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.range.mixed",
+    "input": "Work 9-5, Mon-Fri.",
+    "expected": "Work nine to five, Monday to Friday.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.ambiguous.us",
+    "input": "3/4/2023",
+    "expected": "March fourth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.ambiguous.gb",
+    "input": "3/4/2023",
+    "expected": "April third, twenty twenty-three",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "date.written.dmy.the",
+    "input": "the 3rd of July 2023",
+    "expected": "the third of July, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "date.written.mdy.short",
+    "input": "Sept. 5, 2023",
+    "expected": "September fifth, twenty twenty-three",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.compound.ftin",
+    "input": "5ft 10in tall",
+    "expected": "five feet ten inches tall",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.tz.ist",
+    "input": "Meet at 3 PM IST.",
+    "expected": "Meet at three P M I S T.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.clock.lowercase",
+    "input": "Call at 3:15pm.",
+    "expected": "Call at three fifteen P M.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.bible_verse",
+    "input": "Chapter 3:16.",
+    "expected": "Chapter three, sixteen.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "number.score",
+    "input": "Score was 3-2.",
+    "expected": "Score was three to two.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.emergency.911",
+    "input": "Dial 911.",
+    "expected": "Dial nine one one.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.emergency.112",
+    "input": "Call 112.",
+    "expected": "Call one one two.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "phone.tollfree",
+    "input": "Call 1-800-555-0199.",
+    "expected": "Call one, eight oh oh, five five five, oh one nine nine.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency.range.grouped",
+    "input": "Pay $1,000-$2,000.",
+    "expected": "Pay one thousand to two thousand dollars.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "time.range.dotted",
+    "input": "Hours 9 a.m.-5 p.m.",
+    "expected": "Hours nine A M to five P M.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "identifier.hyphen_mixed",
+    "input": "5-star hotel, T-shirt, X-ray.",
+    "expected": "five-star hotel, T-shirt, X-ray.",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "unit.cooking.multiple",
+    "input": "Add 3/4 tsp salt and 2 tbsp oil.",
+    "expected": "Add three fourths teaspoon salt and two tablespoons oil.",
+    "status": "success",
+    "locale": "en-US"
+  }
+]

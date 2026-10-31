@@ -1,0 +1,282 @@
+[
+  {
+    "id": "call_001",
+    "category": "customer_support",
+    "input": "Yes, my account number is 4 4 2, wait, 442-8901.",
+    "proposed_output": "Yes, my account number is four four two, wait, four four two, eight nine oh one.",
+    "verified": false
+  },
+  {
+    "id": "call_002",
+    "category": "customer_support",
+    "input": "Can you verify my pin? It is 0825.",
+    "proposed_output": "Can you verify my pin? It is oh eight two five.",
+    "verified": false
+  },
+  {
+    "id": "call_003",
+    "category": "customer_support",
+    "input": "My customer ID is CUST-88392 and I opened it back in 2018.",
+    "proposed_output": "My customer I D is C U S T dash eight eight three nine two and I opened it back in twenty eighteen.",
+    "verified": false
+  },
+  {
+    "id": "call_004",
+    "category": "customer_support",
+    "input": "I am calling about order #49281 placed on Sept. 12.",
+    "proposed_output": "I am calling about order number four nine two eight one placed on September twelfth.",
+    "verified": false
+  },
+  {
+    "id": "call_005",
+    "category": "customer_support",
+    "input": "Please send the confirmation to john.doe22@gmail.com.",
+    "proposed_output": "Please send the confirmation to john dot doe two two at gmail dot com.",
+    "verified": false
+  },
+  {
+    "id": "call_006",
+    "category": "flight_travel",
+    "input": "Flight AA 1204 is departing at 6:45am on 11/15/2024.",
+    "proposed_output": "Flight A A twelve oh four is departing at six forty-five A M on November fifteenth, twenty twenty-four.",
+    "verified": false
+  },
+  {
+    "id": "call_007",
+    "category": "flight_travel",
+    "input": "I need a seat change for flight UA-402 from JFK to LAX.",
+    "proposed_output": "I need a seat change for flight U A four oh two from J F K to L A X.",
+    "verified": false
+  },
+  {
+    "id": "call_008",
+    "category": "flight_travel",
+    "input": "The total fare is $452.80 including $35.50 in airport taxes.",
+    "proposed_output": "The total fare is four hundred fifty-two dollars and eighty cents including thirty-five dollars and fifty cents in airport taxes.",
+    "verified": false
+  },
+  {
+    "id": "call_009",
+    "category": "flight_travel",
+    "input": "My booking reference code is 7X9K2P.",
+    "proposed_output": "My booking reference code is seven X nine K two P.",
+    "verified": false
+  },
+  {
+    "id": "call_010",
+    "category": "flight_travel",
+    "input": "We have a layover in Chicago for 2h 45m.",
+    "proposed_output": "We have a layover in Chicago for two hours and forty-five minutes.",
+    "verified": false
+  },
+  {
+    "id": "call_011",
+    "category": "flight_travel",
+    "input": "Is baggage over 50 lbs subject to a $75 fee?",
+    "proposed_output": "Is baggage over fifty pounds subject to a seventy-five dollar fee?",
+    "verified": false
+  },
+  {
+    "id": "call_012",
+    "category": "banking_payments",
+    "input": "I see an unauthorized charge of -$129.99 on my Visa card.",
+    "proposed_output": "I see an unauthorized charge of negative one hundred twenty-nine dollars and ninety-nine cents on my Visa card.",
+    "verified": false
+  },
+  {
+    "id": "call_013",
+    "category": "banking_payments",
+    "input": "Please transfer $2,500.00 from checking to savings.",
+    "proposed_output": "Please transfer two thousand five hundred dollars from checking to savings.",
+    "verified": false
+  },
+  {
+    "id": "call_014",
+    "category": "banking_payments",
+    "input": "My routing number ends in 4390 and routing is 021000021.",
+    "proposed_output": "My routing number ends in four three nine oh and routing is oh two one oh oh oh oh two one.",
+    "verified": false
+  },
+  {
+    "id": "call_015",
+    "category": "banking_payments",
+    "input": "The mortgage rate jumped from 6.25% to 6.875% this morning.",
+    "proposed_output": "The mortgage rate jumped from six point two five percent to six point eight seven five percent this morning.",
+    "verified": false
+  },
+  {
+    "id": "call_016",
+    "category": "banking_payments",
+    "input": "I have a balance of EUR 450.50 and $1,200.00 in total.",
+    "proposed_output": "I have a balance of four hundred fifty euros and fifty cents and one thousand two hundred dollars in total.",
+    "verified": false
+  },
+  {
+    "id": "call_017",
+    "category": "delivery_tracking",
+    "input": "Tracking number is 1Z999AA10123456784 and expected by 5 PM.",
+    "proposed_output": "Tracking number is one Z nine nine nine A A one zero one two three four five six seven eight four and expected by five P M.",
+    "verified": false
+  },
+  {
+    "id": "call_018",
+    "category": "delivery_tracking",
+    "input": "The package weighs 4.5kg and measures 12x10x8 inches.",
+    "proposed_output": "The package weighs four point five kilograms and measures twelve by ten by eight inches.",
+    "verified": false
+  },
+  {
+    "id": "call_019",
+    "category": "delivery_tracking",
+    "input": "Delivery driver called from 555-0199 saying he is 10 mins away.",
+    "proposed_output": "Delivery driver called from five five five, oh one nine nine saying he is ten minutes away.",
+    "verified": false
+  },
+  {
+    "id": "call_020",
+    "category": "delivery_tracking",
+    "input": "Please leave it at Apt. 4B, 742 Evergreen Terrace.",
+    "proposed_output": "Please leave it at Apartment four B, seven forty-two Evergreen Terrace.",
+    "verified": false
+  },
+  {
+    "id": "call_021",
+    "category": "delivery_tracking",
+    "input": "Status says out for delivery since 8:15 AM today.",
+    "proposed_output": "Status says out for delivery since eight fifteen A M today.",
+    "verified": false
+  },
+  {
+    "id": "call_022",
+    "category": "medical_appointment",
+    "input": "Dr. Smith rescheduled my appointment to Oct. 24th at 2:30pm.",
+    "proposed_output": "Doctor Smith rescheduled my appointment to October twenty-fourth at two thirty P M.",
+    "verified": false
+  },
+  {
+    "id": "call_023",
+    "category": "medical_appointment",
+    "input": "Take 500mg of Amoxicillin 2x daily with 250ml water.",
+    "proposed_output": "Take five hundred milligrams of Amoxicillin two times daily with two hundred fifty milliliters water.",
+    "verified": false
+  },
+  {
+    "id": "call_024",
+    "category": "medical_appointment",
+    "input": "My blood pressure reading was 120/80 mmHg this morning.",
+    "proposed_output": "My blood pressure reading was one twenty over eighty millimeters of mercury this morning.",
+    "verified": false
+  },
+  {
+    "id": "call_025",
+    "category": "medical_appointment",
+    "input": "Patient body temp was 99.4°F, down from 101.2 F yesterday.",
+    "proposed_output": "Patient body temp was ninety-nine point four degrees Fahrenheit, down from one hundred one point two degrees Fahrenheit yesterday.",
+    "verified": false
+  },
+  {
+    "id": "call_026",
+    "category": "medical_appointment",
+    "input": "My insurance policy number is MED-90218-A.",
+    "proposed_output": "My insurance policy number is M E D dash nine zero two one eight dash A.",
+    "verified": false
+  },
+  {
+    "id": "call_027",
+    "category": "tech_support",
+    "input": "Can you ping 192.168.1.1 or check DNS at 8.8.8.8?",
+    "proposed_output": "Can you ping one nine two dot one six eight dot one dot one or check D N S at eight dot eight dot eight dot eight?",
+    "verified": false
+  },
+  {
+    "id": "call_028",
+    "category": "tech_support",
+    "input": "Error code 0x80070005 occurred during Windows Update.",
+    "proposed_output": "Error code zero x eight zero zero seven zero zero zero five occurred during Windows Update.",
+    "verified": false
+  },
+  {
+    "id": "call_029",
+    "category": "tech_support",
+    "input": "Download speed is 450 Mbps, but latency is 85 ms.",
+    "proposed_output": "Download speed is four hundred fifty megabits per second, but latency is eighty-five milliseconds.",
+    "verified": false
+  },
+  {
+    "id": "call_030",
+    "category": "tech_support",
+    "input": "My router model is RT-AX88U running firmware v3.0.0.4.",
+    "proposed_output": "My router model is R T A X eighty-eight U running firmware version three point zero point zero point four.",
+    "verified": false
+  },
+  {
+    "id": "call_031",
+    "category": "tech_support",
+    "input": "The server CPU usage spiked to 98.5% with 16GB RAM full.",
+    "proposed_output": "The server C P U usage spiked to ninety-eight point five percent with sixteen gigabytes RAM full.",
+    "verified": false
+  },
+  {
+    "id": "call_032",
+    "category": "general_scheduling",
+    "input": "Let us meet on Monday, 10/28 from 9-5 at HQ room 302.",
+    "proposed_output": "Let us meet on Monday, October twenty-eighth from nine to five at H Q room three hundred two.",
+    "verified": false
+  },
+  {
+    "id": "call_033",
+    "category": "general_scheduling",
+    "input": "Call my office line at (415) 555-2671 ext. 402.",
+    "proposed_output": "Call my office line at four one five, five five five, two six seven one, extension four oh two.",
+    "verified": false
+  },
+  {
+    "id": "call_034",
+    "category": "general_scheduling",
+    "input": "Our fiscal year ends 12/31/2024 with Q3 review on Nov. 5.",
+    "proposed_output": "Our fiscal year ends December thirty-first, twenty twenty-four with Q three review on November fifth.",
+    "verified": false
+  },
+  {
+    "id": "call_035",
+    "category": "general_scheduling",
+    "input": "Conference call bridge number is 1-800-555-0100 passcode 839201#.",
+    "proposed_output": "Conference call bridge number is one, eight oh oh, five five five, oh one oh oh passcode eight three nine two oh one pound.",
+    "verified": false
+  },
+  {
+    "id": "call_036",
+    "category": "general_scheduling",
+    "input": "The webinar starts at 3 PM EST, which is 12 PM PST.",
+    "proposed_output": "The webinar starts at three P M E S T, which is noon P S T.",
+    "verified": false
+  },
+  {
+    "id": "call_037",
+    "category": "customer_support",
+    "input": "Um, we paid $45.00 plus a 15% tip, so total was $51.75.",
+    "proposed_output": "Um, we paid forty-five dollars plus a fifteen percent tip, so total was fifty-one dollars and seventy-five cents.",
+    "verified": false
+  },
+  {
+    "id": "call_038",
+    "category": "customer_support",
+    "input": "I live on 5th Ave between 42nd and 43rd St.",
+    "proposed_output": "I live on fifth Avenue between forty-second and forty-third Street.",
+    "verified": false
+  },
+  {
+    "id": "call_039",
+    "category": "customer_support",
+    "input": "He told me 24/7 support was available at support@acme.org.",
+    "proposed_output": "He told me twenty-four seven support was available at support at acme dot org.",
+    "verified": false
+  },
+  {
+    "id": "call_040",
+    "category": "customer_support",
+    "input": "Discount code SAVE20 gives 20% off orders over $100.",
+    "proposed_output": "Discount code S A V E two zero gives twenty percent off orders over one hundred dollars.",
+    "verified": false
+  }
+]

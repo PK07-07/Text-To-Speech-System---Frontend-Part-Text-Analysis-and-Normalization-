@@ -1,0 +1,67 @@
+{
+  "titles": {
+    "Mr.": "Mister",
+    "Mrs.": "Missus",
+    "Ms.": "Ms",
+    "Dr.": "Doctor",
+    "Prof.": "Professor",
+    "Sr.": "Senior",
+    "Jr.": "Junior",
+    "Rev.": "Reverend",
+    "Capt.": "Captain",
+    "Sgt.": "Sergeant",
+    "Lt.": "Lieutenant",
+    "Gen.": "General",
+    "Col.": "Colonel",
+    "Maj.": "Major",
+    "Gov.": "Governor",
+    "Sen.": "Senator",
+    "Rep.": "Representative",
+    "Pres.": "President"
+  },
+  "disambiguation": {
+    "St._saint": "Saint",
+    "St._street": "Street",
+    "Dr._doctor": "Doctor",
+    "Dr._drive": "Drive"
+  },
+  "common": {
+    "etc.": "etcetera",
+    "e.g.": "for example",
+    "i.e.": "that is",
+    "vs.": "versus",
+    "approx.": "approximately",
+    "dept.": "department",
+    "apt.": "apartment",
+    "avg.": "average",
+    "misc.": "miscellaneous",
+    "inc.": "incorporated",
+    "corp.": "corporation",
+    "co.": "company",
+    "ltd.": "limited",
+    "est.": "established"
+  },
+  "initialisms": [
+    "FBI", "CIA", "HTML", "TTS", "USA", "UK", "EU", "UN", "ATM", "VIP",
+    "CEO", "CTO", "CFO", "GPU", "CPU", "SSD", "HDD", "USB", "PDF", "API",
+    "URL", "SDK", "CLI", "OS", "IP", "DNS", "HTTP", "HTTPS", "FTP", "SSH"
+  ],
+  "pronounceable_acronyms": [
+    "NASA", "NATO", "UNESCO", "AIDS", "PIN", "OPEC", "ASAP",
+    "RADAR", "LASER", "SCUBA", "SONAR", "MODEM", "QUASAR"
+  ],
+  "mixed_alphanumeric": {
+    "B2B": "B to B",
+    "B2C": "B to C",
+    "P2P": "P to P",
+    "A320": "A three twenty",
+    "B737": "B seven thirty-seven",
+    "5G": "five G",
+    "4G": "four G",
+    "4K": "four K",
+    "8K": "eight K",
+    "1080p": "ten eighty P",
+    "720p": "seven twenty P",
+    "480p": "four eighty P"
+  }
+}

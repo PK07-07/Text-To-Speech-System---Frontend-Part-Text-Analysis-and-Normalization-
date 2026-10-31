@@ -1,0 +1,496 @@
+[
+  {
+    "id": "phase4_001",
+    "name": "Emoji Drop Policy (Default)",
+    "input": "Hello 👋 world! Nice job 👍.",
+    "expected": "Hello world! Nice job.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_002",
+    "name": "Emoji Verbalize Policy",
+    "input": "Hello 👋 world! Party 🎉 time.",
+    "expected": "Hello waving hand world! Party party popper time.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_003",
+    "name": "Emoji ZWJ Sequence Verbalize",
+    "input": "Family 👨‍👩‍👧 dinner with 👍🏻.",
+    "expected": "Family family: man, woman, girl dinner with thumbs up: light skin tone.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_004",
+    "name": "Emoticon Verbalize",
+    "input": "Great news :) Have fun :D love you <3",
+    "expected": "Great news smiling face Have fun grinning face love you heart",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_005",
+    "name": "Non-Speech Drop Policy (Default)",
+    "input": "She said [laughter] that was funny [pause] indeed.",
+    "expected": "She said that was funny indeed.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_006",
+    "name": "Non-Speech Keep Policy",
+    "input": "The crowd (applause) cheered loudly.",
+    "expected": "The crowd (applause) cheered loudly.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_007",
+    "name": "Non-Speech Pause Policy",
+    "input": "Wait [pause] right here.",
+    "expected": "Wait, right here.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_008",
+    "name": "Dimensions 2D",
+    "input": "Room is 10x20 feet.",
+    "expected": "Room is ten by twenty feet.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_009",
+    "name": "Dimensions 3D",
+    "input": "Box is 4 x 6 x 8 inches.",
+    "expected": "Box is four by six by eight inches.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_010",
+    "name": "Display Resolution",
+    "input": "Display is 1920x1080 resolution.",
+    "expected": "Display is nineteen twenty by ten eighty resolution.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_011",
+    "name": "Scientific Notation 10^exp",
+    "input": "Speed of light is 3.0 x 10^8 meters per second.",
+    "expected": "Speed of light is three point zero times ten to the eighth meters per second.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_012",
+    "name": "Scientific Notation Superscript",
+    "input": "Constant is 6.02 × 10²³ atoms.",
+    "expected": "Constant is six point zero two times ten to the power of twenty-three atoms.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_013",
+    "name": "Scientific E-Notation Negative",
+    "input": "Small value 1e-6 seconds.",
+    "expected": "Small value one times ten to the negative six seconds.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_014",
+    "name": "Scientific E-Notation Positive",
+    "input": "Distance 2.5E10 meters.",
+    "expected": "Distance two point five times ten to the tenth meters.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_015",
+    "name": "Exponent 10^5",
+    "input": "Compute 10^5 now.",
+    "expected": "Compute ten to the fifth power now.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_016",
+    "name": "Superscript Squared",
+    "input": "Value is 5² units.",
+    "expected": "Value is five squared units.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_017",
+    "name": "Superscript Cubed",
+    "input": "Volume is x³.",
+    "expected": "Volume is x cubed.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_018",
+    "name": "Square Root",
+    "input": "Calculate √16 easily.",
+    "expected": "Calculate square root of sixteen easily.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_019",
+    "name": "Chemical Formulas",
+    "input": "Drink H2O and reduce CO2 and SO2.",
+    "expected": "Drink H two O and reduce C O two and S O two.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_020",
+    "name": "Greek Letters",
+    "input": "Angle α and angle β sum to γ.",
+    "expected": "Angle alpha and angle beta sum to gamma.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_021",
+    "name": "Attached Greek Pi",
+    "input": "Circumference is 2π times r.",
+    "expected": "Circumference is two pi times r.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_022",
+    "name": "Math Addition & Equals",
+    "input": "Equation: 2 + 2 = 4.",
+    "expected": "Equation: two plus two equals four.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_023",
+    "name": "Math Subtraction & Equals",
+    "input": "Result: 10 - 3 = 7.",
+    "expected": "Result: ten minus three equals seven.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_024",
+    "name": "Math Multiplication & Division",
+    "input": "Math: 5 * 6 = 30 and 20 / 4 = 5.",
+    "expected": "Math: five times six equals thirty and twenty divided by four equals five.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_025",
+    "name": "Math Inequalities",
+    "input": "Logic: 10 < 20 and 50 > 30 and 5 ≠ 10.",
+    "expected": "Logic: ten is less than twenty and fifty is greater than thirty and five does not equal ten.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_026",
+    "name": "Math Plus-Minus",
+    "input": "Tolerance is ±5 mm.",
+    "expected": "Tolerance is plus or minus five millimeters.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_027",
+    "name": "Prose Dimension Safeguard",
+    "input": "Remember that x marks the spot.",
+    "expected": "Remember that x marks the spot.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_028",
+    "name": "Prose Dash Safeguard",
+    "input": "Choose between option a - b today.",
+    "expected": "Choose between option a - b today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_029",
+    "name": "Typographic Ligatures",
+    "input": "A ﬁne ﬂight with æsthetic œvre.",
+    "expected": "A fine flight with æsthetic œvre.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_030",
+    "name": "Multiple Punctuation & Ellipsis",
+    "input": "Really?? Yes!! It happened.... Wait… now.",
+    "expected": "Really? Yes! It happened... Wait... now.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_031",
+    "name": "Hyphenation Repair Across Newline",
+    "input": "This is a great exam-\nple of hyphen repair.",
+    "expected": "This is a great example of hyphen repair.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_032",
+    "name": "Prose Dashes",
+    "input": "The strategy—which was bold—succeeded.",
+    "expected": "The strategy, which was bold, succeeded.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_033",
+    "name": "SSML Mode Enabled (Preserve Tags)",
+    "input": "<speak>Hello <break time=\"1s\"/> <prosody rate=\"fast\">world</prosody>!</speak>",
+    "expected": "<speak>Hello <break time=\"1s\"/> <prosody rate=\"fast\">world</prosody>!</speak>",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "phase4_034",
+    "name": "SSML Mode Disabled (Strip Tags)",
+    "input": "<speak>Hello <prosody rate=\"fast\">world</prosody>!</speak>",
+    "expected": "Hello world!",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Compute x^2 now.",
+    "expected": "Compute x squared now.",
+    "locale": "en-US",
+    "description": "B1: Exponent squared"
+  },
+  {
+    "input": "Volume is x^3.",
+    "expected": "Volume is x cubed.",
+    "locale": "en-US",
+    "description": "B1: Exponent cubed"
+  },
+  {
+    "input": "Read pages 10 - 20.",
+    "expected": "Read pages ten to twenty.",
+    "locale": "en-US",
+    "description": "B2: Spaced hyphen range (pages)"
+  },
+  {
+    "input": "Open 9 - 5 today.",
+    "expected": "Open nine to five today.",
+    "locale": "en-US",
+    "description": "B2: Spaced hyphen hours"
+  },
+  {
+    "input": "Score was 3 - 2.",
+    "expected": "Score was three to two.",
+    "locale": "en-US",
+    "description": "B2: Spaced hyphen score"
+  },
+  {
+    "input": "Choose Option 1 / 2.",
+    "expected": "Choose Option one half.",
+    "locale": "en-US",
+    "description": "B2: Spaced slash fraction (option)"
+  },
+  {
+    "input": "Add 3 / 4 cup flour.",
+    "expected": "Add three fourths cup flour.",
+    "locale": "en-US",
+    "description": "B2: Spaced slash fraction (recipe)"
+  },
+  {
+    "input": "10 - 3 = 7",
+    "expected": "ten minus three equals seven",
+    "locale": "en-US",
+    "description": "B2: Spaced minus arithmetic with equals"
+  },
+  {
+    "input": "20 / 4 = 5",
+    "expected": "twenty divided by four equals five",
+    "locale": "en-US",
+    "description": "B2: Spaced slash arithmetic with equals"
+  },
+  {
+    "input": "what is 10 - 3",
+    "expected": "what is ten minus three",
+    "locale": "en-US",
+    "description": "B2: Spaced minus arithmetic with cue"
+  },
+  {
+    "input": "Ten < twenty",
+    "expected": "Ten < twenty",
+    "locale": "en-US",
+    "description": "B3: Words around < unchanged"
+  },
+  {
+    "input": "a<b and c>d",
+    "expected": "a<b and c>d",
+    "locale": "en-US",
+    "description": "B3: Single letters without numbers unchanged"
+  },
+  {
+    "input": "Check if x<3.",
+    "expected": "Check if x is less than three.",
+    "locale": "en-US",
+    "description": "B3: Single letter and number is math"
+  },
+  {
+    "input": "Sending love <3",
+    "expected": "Sending love heart",
+    "locale": "en-US",
+    "description": "B3: Standalone <3 is heart emoticon"
+  },
+  {
+    "input": "Note:Please call tomorrow.",
+    "expected": "Note:Please call tomorrow.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon Note:Please"
+  },
+  {
+    "input": "Re:Order confirmation.",
+    "expected": "Re:Order confirmation.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon Re:Order"
+  },
+  {
+    "input": "Total:OK for shipment.",
+    "expected": "Total:okay for shipment.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon Total:OK"
+  },
+  {
+    "input": "Step 3:Prepare ingredients.",
+    "expected": "Step three:Prepare ingredients.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon Step 3:Prepare"
+  },
+  {
+    "input": "Dr:Smith will arrive.",
+    "expected": "Doctor:Smith will arrive.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon Dr:Smith"
+  },
+  {
+    "input": "Visit http://x.com now.",
+    "expected": "Visit x dot com now.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon URL http://x.com"
+  },
+  {
+    "input": "Aspect ratio 16:9.",
+    "expected": "Aspect ratio sixteen to nine.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon ratio 16:9"
+  },
+  {
+    "input": "Model XD-1000 ready.",
+    "expected": "Model X D one thousand ready.",
+    "locale": "en-US",
+    "description": "B4: Negative emoticon identifier XD-1000"
+  },
+  {
+    "input": "Register value 0x1F.",
+    "expected": "Register value 0x1F.",
+    "locale": "en-US",
+    "description": "B5: Hex 0x1F preserved"
+  },
+  {
+    "input": "Memory at 0xFF00.",
+    "expected": "Memory at 0xFF00.",
+    "locale": "en-US",
+    "description": "B5: Hex 0xFF00 preserved"
+  },
+  {
+    "input": "Engine runs 3x faster.",
+    "expected": "Engine runs three times faster.",
+    "locale": "en-US",
+    "description": "B5: Multiplier speed 3x faster"
+  },
+  {
+    "input": "Layout on a 5x5 grid.",
+    "expected": "Layout on a five by five grid.",
+    "locale": "en-US",
+    "description": "B5: Grid dimension 5x5 grid"
+  },
+  {
+    "input": "Latency is 5 µs.",
+    "expected": "Latency is five microseconds.",
+    "locale": "en-US",
+    "description": "B5: Microsecond unit 5 µs"
+  },
+  {
+    "input": "Resistance is 10 Ω.",
+    "expected": "Resistance is ten ohms.",
+    "locale": "en-US",
+    "description": "B5: Ohm unit 10 Ω"
+  },
+  {
+    "input": "Capacitor is 100 µF.",
+    "expected": "Capacitor is one hundred microfarads.",
+    "locale": "en-US",
+    "description": "B5: Microfarad unit 100 µF"
+  },
+  {
+    "input": "Diameter is 3 µm.",
+    "expected": "Diameter is three micrometers.",
+    "locale": "en-US",
+    "description": "B5: Micrometer unit 3 µm"
+  },
+  {
+    "input": "The New York–London flight departed.",
+    "expected": "The New York to London flight departed.",
+    "locale": "en-US",
+    "description": "B6: En dash between words (New York–London)"
+  },
+  {
+    "input": "The Paris–Berlin route opened.",
+    "expected": "The Paris to Berlin route opened.",
+    "locale": "en-US",
+    "description": "B6: En dash between words (Paris–Berlin)"
+  },
+  {
+    "input": "Read pages 10–20.",
+    "expected": "Read pages ten to twenty.",
+    "locale": "en-US",
+    "description": "B6: En dash number range preserved"
+  },
+  {
+    "input": "Visited Ærø island.",
+    "expected": "Visited Ærø island.",
+    "locale": "en-US",
+    "description": "B7: Nordic name Ærø unchanged"
+  },
+  {
+    "input": "Julius Cæsar ruled.",
+    "expected": "Julius Cæsar ruled.",
+    "locale": "en-US",
+    "description": "B7: Classical name Cæsar unchanged"
+  },
+  {
+    "input": "Un coup de cœur.",
+    "expected": "Un coup de cœur.",
+    "locale": "en-US",
+    "description": "B7: French word cœur unchanged"
+  },
+  {
+    "input": "A ﬁne ﬂight with ﬅyle.",
+    "expected": "A fine flight with style.",
+    "locale": "en-US",
+    "description": "B7: Typographic ligatures expand"
+  }
+]

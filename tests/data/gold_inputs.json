@@ -1,0 +1,2706 @@
+[
+  {
+    "id": "gold_001",
+    "description": "Simple zero",
+    "input": "0",
+    "proposed_output": "zero",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_002",
+    "description": "Cardinal one",
+    "input": "1",
+    "proposed_output": "one",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_003",
+    "description": "Negative cardinal",
+    "input": "-5",
+    "proposed_output": "negative five",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_004",
+    "description": "Large cardinal with commas",
+    "input": "1,000,000",
+    "proposed_output": "one million",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_005",
+    "description": "Thin-space grouped cardinal",
+    "input": "1 250 000",
+    "proposed_output": "one million two hundred fifty thousand",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_006",
+    "description": "Cardinal in sentence context",
+    "input": "There are 42 apples in the box.",
+    "proposed_output": "There are forty-two apples in the box.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_007",
+    "description": "Large cardinal 999999",
+    "input": "999,999",
+    "proposed_output": "nine hundred ninety-nine thousand nine hundred ninety-nine",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_008",
+    "description": "Cardinal hundred",
+    "input": "100",
+    "proposed_output": "one hundred",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_009",
+    "description": "Cardinal thousand",
+    "input": "1000",
+    "proposed_output": "one thousand",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_010",
+    "description": "Ordinal 1st",
+    "input": "1st",
+    "proposed_output": "first",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_011",
+    "description": "Ordinal 2nd",
+    "input": "2nd",
+    "proposed_output": "second",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_012",
+    "description": "Ordinal 3rd",
+    "input": "3rd",
+    "proposed_output": "third",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_013",
+    "description": "Ordinal 4th through 10th in sentence",
+    "input": "She placed 4th in the race.",
+    "proposed_output": "She placed fourth in the race.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_014",
+    "description": "Ordinal 11th",
+    "input": "The 11th hour decision.",
+    "proposed_output": "The eleventh hour decision.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_015",
+    "description": "Ordinal 12th",
+    "input": "12th",
+    "proposed_output": "twelfth",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_016",
+    "description": "Ordinal 21st",
+    "input": "21st",
+    "proposed_output": "twenty-first",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_017",
+    "description": "Ordinal 31st",
+    "input": "31st",
+    "proposed_output": "thirty-first",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_018",
+    "description": "Ordinal 100th",
+    "input": "100th",
+    "proposed_output": "one hundredth",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_019",
+    "description": "Ordinal 1000th",
+    "input": "1000th",
+    "proposed_output": "one thousandth",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_020",
+    "description": "Decimal with trailing zeros",
+    "input": "3.50",
+    "proposed_output": "three point five zero",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_021",
+    "description": "Decimal with leading zero",
+    "input": "0.75",
+    "proposed_output": "zero point seven five",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_022",
+    "description": "Negative decimal",
+    "input": "-0.5",
+    "proposed_output": "negative zero point five",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_023",
+    "description": "Decimal in sentence",
+    "input": "The reading was 98.6 degrees.",
+    "proposed_output": "The reading was ninety-eight point six degrees.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_024",
+    "description": "Multiple decimal places",
+    "input": "Pi is approximately 3.14159.",
+    "proposed_output": "Pi is approximately three point one four one five nine.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_025",
+    "description": "Integer percentage",
+    "input": "25%",
+    "proposed_output": "twenty-five percent",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_026",
+    "description": "Decimal percentage",
+    "input": "3.5%",
+    "proposed_output": "three point five percent",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_027",
+    "description": "Negative percentage",
+    "input": "-10%",
+    "proposed_output": "negative ten percent",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_028",
+    "description": "Percentage in sentence",
+    "input": "Sales grew by 15% this quarter.",
+    "proposed_output": "Sales grew by fifteen percent this quarter.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_029",
+    "description": "100 percent",
+    "input": "100%",
+    "proposed_output": "one hundred percent",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_030",
+    "description": "Parenthesized negative percentage",
+    "input": "Revenue growth was (5.2%) last year.",
+    "proposed_output": "Revenue growth was negative five point two percent last year.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_031",
+    "description": "Year 1776",
+    "input": "America declared independence in 1776.",
+    "proposed_output": "America declared independence in seventeen seventy-six.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_032",
+    "description": "Year 2000",
+    "input": "The millennium started in 2000.",
+    "proposed_output": "The millennium started in two thousand.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_033",
+    "description": "Year 2024",
+    "input": "The Olympics are in 2024.",
+    "proposed_output": "The Olympics are in twenty twenty-four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_034",
+    "description": "Year 1900",
+    "input": "The event occurred in 1900.",
+    "proposed_output": "The event occurred in nineteen hundred.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_035",
+    "description": "Year 2001",
+    "input": "2001 was a landmark year.",
+    "proposed_output": "Two thousand one was a landmark year.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_036",
+    "description": "Year 1100",
+    "input": "Construction began in 1100 AD.",
+    "proposed_output": "Construction began in eleven hundred AD.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_037",
+    "description": "Decade reference 1990s",
+    "input": "Music was great in the 1990s.",
+    "proposed_output": "Music was great in the nineteen nineties.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_038",
+    "description": "Year with BC",
+    "input": "The city was founded in 753 BC.",
+    "proposed_output": "The city was founded in seven fifty-three BC.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_039",
+    "description": "Year 2099",
+    "input": "The project target date is 2099.",
+    "proposed_output": "The project target date is twenty ninety-nine.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_040",
+    "description": "USD simple",
+    "input": "$10",
+    "proposed_output": "ten dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_041",
+    "description": "USD with cents",
+    "input": "$12.50",
+    "proposed_output": "twelve dollars and fifty cents",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_042",
+    "description": "USD large with commas",
+    "input": "$1,500,000",
+    "proposed_output": "one million five hundred thousand dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_043",
+    "description": "GBP simple",
+    "input": "£50",
+    "proposed_output": "fifty pounds",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_044",
+    "description": "GBP with pence",
+    "input": "£9.99",
+    "proposed_output": "nine pounds and ninety-nine pence",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_045",
+    "description": "EUR simple",
+    "input": "€100",
+    "proposed_output": "one hundred euros",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_046",
+    "description": "EUR with cents",
+    "input": "€5.75",
+    "proposed_output": "five euros and seventy-five cents",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_047",
+    "description": "JPY simple",
+    "input": "¥1000",
+    "proposed_output": "one thousand yen",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_048",
+    "description": "INR with lakh notation",
+    "input": "₹1,50,000",
+    "proposed_output": "one lakh fifty thousand rupees",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_049",
+    "description": "USD with K abbreviation",
+    "input": "$500K",
+    "proposed_output": "five hundred thousand dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_050",
+    "description": "USD with M abbreviation",
+    "input": "$2.5M",
+    "proposed_output": "two point five million dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_051",
+    "description": "USD with B abbreviation",
+    "input": "$1B",
+    "proposed_output": "one billion dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_052",
+    "description": "Negative currency",
+    "input": "-$25.00",
+    "proposed_output": "negative twenty-five dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_053",
+    "description": "Parenthesized accounting currency",
+    "input": "($2,500)",
+    "proposed_output": "negative two thousand five hundred dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_054",
+    "description": "ISO currency code USD",
+    "input": "USD 100",
+    "proposed_output": "one hundred US dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_055",
+    "description": "ISO currency code EUR",
+    "input": "EUR 50",
+    "proposed_output": "fifty euros",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_056",
+    "description": "Mixed sentence: currency and ordinal",
+    "input": "He paid $12.50 for the 1st ticket and €5 for the 2nd.",
+    "proposed_output": "He paid twelve dollars and fifty cents for the first ticket and five euros for the second.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_057",
+    "description": "Mixed sentence: percentage and year",
+    "input": "Revenue grew 15% in 2023.",
+    "proposed_output": "Revenue grew fifteen percent in twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_058",
+    "description": "Mixed sentence: negative percentage and decimal currency",
+    "input": "The revenue dropped by -3.2% while expenses increased by 15%.",
+    "proposed_output": "The revenue dropped by negative three point two percent while expenses increased by fifteen percent.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_059",
+    "description": "Mixed sentence: cardinal, ordinal, currency, percentage",
+    "input": "The 1st item costs $10.50, the 2nd is $20, and the 3rd is 25% off in 2024.",
+    "proposed_output": "The first item costs ten dollars and fifty cents, the second is twenty dollars, and the third is twenty-five percent off in twenty twenty-four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_060",
+    "description": "Mixed sentence: year and large number",
+    "input": "In 1984, the company had 1,500 employees.",
+    "proposed_output": "In nineteen eighty-four, the company had one thousand five hundred employees.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_061",
+    "description": "Smart double quotes normalized",
+    "input": "“Hello”",
+    "proposed_output": "\"Hello\"",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_062",
+    "description": "Smart single quotes normalized",
+    "input": "‘world’",
+    "proposed_output": "'world'",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_063",
+    "description": "Contraction with smart quote",
+    "input": "“Don’t worry, the price isn’t $100.”",
+    "proposed_output": "\"Don't worry, the price isn't one hundred dollars.\"",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_064",
+    "description": "NFD decomposed e-acute preserved",
+    "input": "Café bill: $15.50 for 2 coffees.",
+    "proposed_output": "Café bill: fifteen dollars and fifty cents for two coffees.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_065",
+    "description": "Emoji preserved in text",
+    "input": "I have 3 🍎 apples.",
+    "proposed_output": "I have three 🍎 apples.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_066",
+    "description": "ZWJ emoji sequence preserved",
+    "input": "She has 2 👩‍💻 laptops.",
+    "proposed_output": "She has two 👩‍💻 laptops.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_067",
+    "description": "URL with numbers not normalized",
+    "input": "Visit https://example.com/page/123 for details.",
+    "proposed_output": "Visit https://example.com/page/123 for details.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_068",
+    "description": "Email with numbers not normalized",
+    "input": "Contact user42@mail.com for info.",
+    "proposed_output": "Contact user42@mail.com for info.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_069",
+    "description": "URL with port number not normalized",
+    "input": "Server at http://localhost:8080/api/v2 is running.",
+    "proposed_output": "Server at http://localhost:8080/api/v2 is running.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_070",
+    "description": "Complex URL with query params",
+    "input": "See https://example.com/search?q=test&page=5&limit=100 for results.",
+    "proposed_output": "See https://example.com/search?q=test&page=5&limit=100 for results.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_071",
+    "description": "Empty string",
+    "input": "",
+    "proposed_output": "",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_072",
+    "description": "Whitespace only",
+    "input": "   ",
+    "proposed_output": "   ",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_073",
+    "description": "Very long number",
+    "input": "123456789012345",
+    "proposed_output": "one hundred twenty-three trillion four hundred fifty-six billion seven hundred eighty-nine million twelve thousand three hundred forty-five",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_074",
+    "description": "Malformed number with double dots",
+    "input": "The value is 12..34 today.",
+    "proposed_output": "The value is 12..34 today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_075",
+    "description": "Malformed ordinal",
+    "input": "He came 1th in the race.",
+    "proposed_output": "He came 1th in the race.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_076",
+    "description": "C0 control character TAB",
+    "input": "Price:\t$5",
+    "proposed_output": "Price:\tfive dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_077",
+    "description": "C0 control character newline",
+    "input": "Line 1\nLine 2",
+    "proposed_output": "Line one\nLine two",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_078",
+    "description": "en-GB hundred with and",
+    "input": "The package contains 305 items.",
+    "proposed_output": "The package contains three hundred and five items.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_079",
+    "description": "en-US hundred without and",
+    "input": "The package contains 305 items.",
+    "proposed_output": "The package contains three hundred five items.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_080",
+    "description": "en-GB currency with and",
+    "input": "That costs £105.",
+    "proposed_output": "That costs one hundred and five pounds.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_081",
+    "description": "en-US currency without and",
+    "input": "That costs $105.",
+    "proposed_output": "That costs one hundred five dollars.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_082",
+    "description": "Plain text no numbers",
+    "input": "The quick brown fox jumps over the lazy dog.",
+    "proposed_output": "The quick brown fox jumps over the lazy dog.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_083",
+    "description": "Only punctuation",
+    "input": "...!?",
+    "proposed_output": "...!?",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_084",
+    "description": "Year with temporal cue 'in'",
+    "input": "Born in 1990, she grew up in the 2000s.",
+    "proposed_output": "Born in nineteen ninety, she grew up in the two thousands.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_085",
+    "description": "Ambiguous year vs count noun",
+    "input": "We ordered 1500 units.",
+    "proposed_output": "We ordered one thousand five hundred units.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_086",
+    "description": "Year at sentence start",
+    "input": "1984 was a great year for literature.",
+    "proposed_output": "Nineteen eighty-four was a great year for literature.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_087",
+    "description": "Year with AD suffix",
+    "input": "The temple was built in 1200 AD.",
+    "proposed_output": "The temple was built in twelve hundred AD.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_088",
+    "description": "NBSP used as grouping separator",
+    "input": "Population: 1 250 000 people.",
+    "proposed_output": "Population: one million two hundred fifty thousand people.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_089",
+    "description": "Narrow NBSP grouping",
+    "input": "Total: 25 000 items.",
+    "proposed_output": "Total: twenty-five thousand items.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_090",
+    "description": "Dollar sign with one cent",
+    "input": "$0.01",
+    "proposed_output": "one cent",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_091",
+    "description": "Dollar sign with zero cents",
+    "input": "$5.00",
+    "proposed_output": "five dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_092",
+    "description": "Ordinal 13th",
+    "input": "Friday the 13th.",
+    "proposed_output": "Friday the thirteenth.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_093",
+    "description": "Ordinal 22nd",
+    "input": "The 22nd of December.",
+    "proposed_output": "The twenty-second of December.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_094",
+    "description": "Negative large number",
+    "input": "-1,000,000",
+    "proposed_output": "negative one million",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_095",
+    "description": "Year 1800",
+    "input": "The building dates from 1800.",
+    "proposed_output": "The building dates from eighteen hundred.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_096",
+    "description": "Year 2010",
+    "input": "In 2010, the law was passed.",
+    "proposed_output": "In twenty ten, the law was passed.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_097",
+    "description": "Currency one dollar",
+    "input": "$1",
+    "proposed_output": "one dollar",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_098",
+    "description": "Currency one pound",
+    "input": "£1",
+    "proposed_output": "one pound",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_099",
+    "description": "Currency one euro",
+    "input": "€1",
+    "proposed_output": "one euro",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_100",
+    "description": "Percentage zero",
+    "input": "0%",
+    "proposed_output": "zero percent",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_101",
+    "description": "Multiple currencies in one sentence",
+    "input": "He has $100, £50, and €75.",
+    "proposed_output": "He has one hundred dollars, fifty pounds, and seventy-five euros.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_102",
+    "description": "Accounting parenthesized with cents",
+    "input": "Balance: ($1,234.56)",
+    "proposed_output": "Balance: negative one thousand two hundred thirty-four dollars and fifty-six cents",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_103",
+    "description": "Complex sentence: year, currency, ordinal, percentage",
+    "input": "On July 4, 1984, the company paid $12.50 to the 1st employee, representing 25% of the $50 budget.",
+    "proposed_output": "On July four, nineteen eighty-four, the company paid twelve dollars and fifty cents to the first employee, representing twenty-five percent of the fifty dollar budget.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_104",
+    "description": "Thin-space grouped number in prose",
+    "input": "The city has 1 250 000 residents as of 2024.",
+    "proposed_output": "The city has one million two hundred fifty thousand residents as of twenty twenty-four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_105",
+    "description": "Number with ordinal suffix in date context",
+    "input": "The 15th of March 2023.",
+    "proposed_output": "The fifteenth of March twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_106",
+    "description": "Cardinal two in sentence",
+    "input": "I have 2 cats.",
+    "proposed_output": "I have two cats.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_107",
+    "description": "Single digit as word",
+    "input": "There are 9 planets.",
+    "proposed_output": "There are nine planets.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_108",
+    "description": "Number 10",
+    "input": "Top 10 list.",
+    "proposed_output": "Top ten list.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_109",
+    "description": "Parenthesized accounting amount no cents",
+    "input": "Net loss: ($500)",
+    "proposed_output": "Net loss: negative five hundred dollars",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_110",
+    "description": "USD with B and decimal",
+    "input": "The company is worth $3.5B.",
+    "proposed_output": "The company is worth three point five billion dollars.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_111",
+    "description": "Multiple ordinals in sentence",
+    "input": "The 1st, 2nd, and 3rd place winners.",
+    "proposed_output": "The first, second, and third place winners.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_112",
+    "description": "Year 2005 spoken as two thousand five",
+    "input": "She graduated in 2005.",
+    "proposed_output": "She graduated in two thousand five.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_113",
+    "description": "Standalone number 1500 as count (not year)",
+    "input": "They shipped 1500 boxes.",
+    "proposed_output": "They shipped one thousand five hundred boxes.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_114",
+    "description": "Currency singular cents only",
+    "input": "$0.50",
+    "proposed_output": "fifty cents",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_115",
+    "description": "en-GB large number with and",
+    "input": "We have 1,250 members.",
+    "proposed_output": "We have one thousand two hundred and fifty members.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_116",
+    "description": "Comma-separated number 10,000",
+    "input": "10,000",
+    "proposed_output": "ten thousand",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_117",
+    "description": "Number 11 (not ordinal)",
+    "input": "She has 11 books.",
+    "proposed_output": "She has eleven books.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_118",
+    "description": "Number 20",
+    "input": "There are 20 students.",
+    "proposed_output": "There are twenty students.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_119",
+    "description": "Consecutive numbers in text",
+    "input": "Scores were 100, 200, and 300.",
+    "proposed_output": "Scores were one hundred, two hundred, and three hundred.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_120",
+    "description": "Currency with comma grouping and cents",
+    "input": "Total: $1,234.56",
+    "proposed_output": "Total: one thousand two hundred thirty-four dollars and fifty-six cents",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_121",
+    "description": "Written date MDY",
+    "input": "Meeting on Oct 29, 2023.",
+    "proposed_output": "Meeting on October twenty-ninth, twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_122",
+    "description": "Written date with weekday",
+    "input": "Event on Mon, Oct 29, 2023.",
+    "proposed_output": "Event on Monday, October twenty-ninth, twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_123",
+    "description": "Written date DMY",
+    "input": "Born on 29 October 2023.",
+    "proposed_output": "Born on October twenty-ninth, twenty twenty-three.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_124",
+    "description": "Written date without year",
+    "input": "Celebrated on July 4th.",
+    "proposed_output": "Celebrated on July fourth.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_125",
+    "description": "Numeric date MDY",
+    "input": "Dated 10/29/2023.",
+    "proposed_output": "Dated October twenty-ninth, twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_126",
+    "description": "Numeric date DMY",
+    "input": "Dated 29/10/2023.",
+    "proposed_output": "Dated October twenty-ninth, twenty twenty-three.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_127",
+    "description": "ISO date YYYY-MM-DD",
+    "input": "Record date 2023-10-29.",
+    "proposed_output": "Record date October twenty-ninth, twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_128",
+    "description": "Numeric date YMD",
+    "input": "Logged at 2023/10/29.",
+    "proposed_output": "Logged at October twenty-ninth, twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_129",
+    "description": "Written date range",
+    "input": "Conference runs April 3-5, 2024.",
+    "proposed_output": "Conference runs April third to fifth, twenty twenty-four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_130",
+    "description": "Leap day valid",
+    "input": "Born on 02/29/2024.",
+    "proposed_output": "Born on February twenty-ninth, twenty twenty-four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_131",
+    "description": "Leap day invalid",
+    "input": "Born on 02/29/2023.",
+    "proposed_output": "Born on oh two slash twenty-nine slash twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_132",
+    "description": "Invalid calendar date Feb 30",
+    "input": "Expires 02/30/2023.",
+    "proposed_output": "Expires oh two slash thirty slash twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_133",
+    "description": "Invalid written date April 31",
+    "input": "Due April 31, 2023.",
+    "proposed_output": "Due April thirty-one, twenty twenty-three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_134",
+    "description": "12h clock time with AM",
+    "input": "Breakfast at 9:05 AM.",
+    "proposed_output": "Breakfast at nine oh five A M.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_135",
+    "description": "12h clock time without AM/PM",
+    "input": "Meeting at 9:05.",
+    "proposed_output": "Meeting at nine oh five.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_136",
+    "description": "12h clock noon",
+    "input": "Lunch at 12:00 PM.",
+    "proposed_output": "Lunch at noon.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_137",
+    "description": "12h clock midnight",
+    "input": "Closed at 12:00 AM.",
+    "proposed_output": "Closed at midnight.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_138",
+    "description": "24h clock midnight 00:00",
+    "input": "Reset at 00:00.",
+    "proposed_output": "Reset at midnight.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_139",
+    "description": "24h clock midnight 24:00",
+    "input": "Shift ends at 24:00.",
+    "proposed_output": "Shift ends at midnight.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_140",
+    "description": "Time after noon",
+    "input": "Departs at 12:01 PM.",
+    "proposed_output": "Departs at twelve oh one P M.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_141",
+    "description": "Time with seconds and EST timezone",
+    "input": "Launch at 09:05:30 EST.",
+    "proposed_output": "Launch at nine oh five and thirty seconds A M E S T.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_142",
+    "description": "Time with UTC timezone",
+    "input": "Sync at 14:30 UTC.",
+    "proposed_output": "Sync at two thirty P M U T C.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_143",
+    "description": "Time with UTC offset",
+    "input": "Meeting at 14:30 +05:30.",
+    "proposed_output": "Meeting at two thirty P M plus five thirty.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_144",
+    "description": "Time range",
+    "input": "Hours are 2:00-4:00 PM.",
+    "proposed_output": "Hours are two to four P M.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_145",
+    "description": "Compound duration",
+    "input": "Duration: 2h 30m.",
+    "proposed_output": "Duration: two hours and thirty minutes.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_146",
+    "description": "Single duration seconds",
+    "input": "Wait 45s please.",
+    "proposed_output": "Wait forty-five seconds please.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_147",
+    "description": "Single duration hour",
+    "input": "Stay for 1h.",
+    "proposed_output": "Stay for one hour.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_148",
+    "description": "Single duration minutes",
+    "input": "Break: 15 min.",
+    "proposed_output": "Break: fifteen minutes.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_149",
+    "description": "Standard fraction half",
+    "input": "Use 1/2 cup sugar.",
+    "proposed_output": "Use one half cup sugar.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_150",
+    "description": "Standard fraction fourths",
+    "input": "Add 3/4 tsp salt.",
+    "proposed_output": "Add three fourths tsp salt.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_151",
+    "description": "Negative fraction",
+    "input": "Change is -1/2 point.",
+    "proposed_output": "Change is negative one half point.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_152",
+    "description": "Mixed fraction",
+    "input": "Walk 2 1/3 miles.",
+    "proposed_output": "Walk two and one third miles.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_153",
+    "description": "Unicode fraction half",
+    "input": "Pour ½ cup milk.",
+    "proposed_output": "Pour one half cup milk.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_154",
+    "description": "Unicode fraction fourths",
+    "input": "Add ¾ cup flour.",
+    "proposed_output": "Add three fourths cup flour.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_155",
+    "description": "Ratio 16:9",
+    "input": "Screen aspect 16:9.",
+    "proposed_output": "Screen aspect sixteen to nine.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_156",
+    "description": "Ratio 3:1",
+    "input": "Mix ratio 3:1.",
+    "proposed_output": "Mix ratio three to one.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_157",
+    "description": "Number range",
+    "input": "Ages 10-20 welcome.",
+    "proposed_output": "Ages ten to twenty welcome.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_158",
+    "description": "Year range",
+    "input": "Years 1995-1999 active.",
+    "proposed_output": "Years nineteen ninety-five to nineteen ninety-nine active.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_159",
+    "description": "Currency range USD",
+    "input": "Costs - per item.",
+    "proposed_output": "Costs - per item.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_160",
+    "description": "Currency range GBP",
+    "input": "Price is £5-£10.",
+    "proposed_output": "Price is five to ten pounds.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_161",
+    "description": "Currency range magnitudes",
+    "input": "Earned -.",
+    "proposed_output": "Earned -.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_162",
+    "description": "Currency range decimals",
+    "input": "Price: .50-.50.",
+    "proposed_output": "Price: .50-.50.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_163",
+    "description": "Different currencies stay separate",
+    "input": "Exchange -EUR10.",
+    "proposed_output": "Exchange -ten euros.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_164",
+    "description": "Unit length attached",
+    "input": "Run 5km today.",
+    "proposed_output": "Run five kilometers today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_165",
+    "description": "Unit mass plural",
+    "input": "Box is 10 kg.",
+    "proposed_output": "Box is ten kilograms.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_166",
+    "description": "Unit mass singular",
+    "input": "Pack 1 kg.",
+    "proposed_output": "Pack one kilogram.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_167",
+    "description": "Unit mass zero",
+    "input": "Scale shows 0 kg.",
+    "proposed_output": "Scale shows zero kilograms.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_168",
+    "description": "Unit mass decimal",
+    "input": "Sample is 1.5 kg.",
+    "proposed_output": "Sample is one point five kilograms.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_169",
+    "description": "Unit speed",
+    "input": "Speed limit 60 km/h.",
+    "proposed_output": "Speed limit sixty kilometers per hour.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_170",
+    "description": "Unit temperature Celsius",
+    "input": "Temp is 25°C.",
+    "proposed_output": "Temp is twenty-five degrees Celsius.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_171",
+    "description": "Unit digital GB",
+    "input": "Has 16 GB RAM.",
+    "proposed_output": "Has sixteen gigabytes RAM.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_172",
+    "description": "Unit electrical Volts",
+    "input": "Input 120 V AC.",
+    "proposed_output": "Input one hundred twenty volts AC.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_173",
+    "description": "Unit electrical Hertz",
+    "input": "Grid at 50 Hz.",
+    "proposed_output": "Grid at fifty hertz.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_174",
+    "description": "Unit range",
+    "input": "Hike 10-20 km daily.",
+    "proposed_output": "Hike ten to twenty kilometers daily.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_175",
+    "description": "NANP phone with parens",
+    "input": "Call (555) 123-4567.",
+    "proposed_output": "Call five five five, one two three, four five six seven.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_176",
+    "description": "NANP phone with hyphens",
+    "input": "Reach 555-123-4567.",
+    "proposed_output": "Reach five five five, one two three, four five six seven.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_177",
+    "description": "NANP phone with country code",
+    "input": "Dial +1-555-123-4567.",
+    "proposed_output": "Dial one, five five five, one two three, four five six seven.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_178",
+    "description": "India mobile phone",
+    "input": "Contact +91 98765 43210.",
+    "proposed_output": "Contact plus nine one, nine eight seven six five, four three two one oh.",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "gold_179",
+    "description": "Local 7-digit phone",
+    "input": "Call 555-0199.",
+    "proposed_output": "Call five five five, oh one nine nine.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_180",
+    "description": "Product code RX-78",
+    "input": "Model RX-78 online.",
+    "proposed_output": "Model R X seventy-eight online.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_181",
+    "description": "Product code WD-40",
+    "input": "Apply WD-40 spray.",
+    "proposed_output": "Apply W D forty spray.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_182",
+    "description": "Exact lexicon COVID-19",
+    "input": "The COVID-19 virus.",
+    "proposed_output": "The covid nineteen virus.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_183",
+    "description": "Exact lexicon F-16",
+    "input": "Fighter F-16 flying.",
+    "proposed_output": "Fighter F sixteen flying.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_184",
+    "description": "Phase 3: <p>First paragraph.</p><p>Second paragra",
+    "input": "<p>First paragraph.</p><p>Second paragraph.</p>",
+    "proposed_output": " First paragraph.  Second paragraph. ",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_185",
+    "description": "Phase 3: <div>Line one.</div><div>Line two.</div>",
+    "input": "<div>Line one.</div><div>Line two.</div>",
+    "proposed_output": " Line one.  Line two. ",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_186",
+    "description": "Phase 3: Heading<h1>Title Here</h1>Body text.",
+    "input": "Heading<h1>Title Here</h1>Body text.",
+    "proposed_output": "Heading Title Here Body text.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_187",
+    "description": "Phase 3: Line 1<br>Line 2<br/>Line 3.",
+    "input": "Line 1<br>Line 2<br/>Line 3.",
+    "proposed_output": "Line one Line two Line three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_188",
+    "description": "Phase 3: This is <b>bold</b> and <i>italic</i> an",
+    "input": "This is <b>bold</b> and <i>italic</i> and <u>underlined</u>.",
+    "proposed_output": "This is bold and italic and underlined.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_189",
+    "description": "Phase 3: Span <span>with words</span> inside.",
+    "input": "Span <span>with words</span> inside.",
+    "proposed_output": "Span with words inside.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_190",
+    "description": "Phase 3: Hello<script>alert('xss');</script> worl",
+    "input": "Hello<script>alert('xss');</script> world.",
+    "proposed_output": "Hello world.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_191",
+    "description": "Phase 3: Text<style>body { color: red; }</style> ",
+    "input": "Text<style>body { color: red; }</style> here.",
+    "proposed_output": "Text here.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_192",
+    "description": "Phase 3: Tom &amp; Jerry at &quot;home&#39;s&quot",
+    "input": "Tom &amp; Jerry at &quot;home&#39;s&quot; place.",
+    "proposed_output": "Tom and Jerry at \"home's\" place.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_193",
+    "description": "Phase 3: Values: 10 &lt; 20 and 50 &gt; 30.",
+    "input": "Values: 10 &lt; 20 and 50 &gt; 30.",
+    "proposed_output": "Values: ten < twenty and fifty > thirty.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_194",
+    "description": "Phase 3: Five&nbsp;apples in a basket.",
+    "input": "Five&nbsp;apples in a basket.",
+    "proposed_output": "Five apples in a basket.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_195",
+    "description": "Phase 3: # Heading 1\nContent paragraph.",
+    "input": "# Heading 1\nContent paragraph.",
+    "proposed_output": "Heading one\nContent paragraph.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_196",
+    "description": "Phase 3: ## Section 2.1\nDetails here.",
+    "input": "## Section 2.1\nDetails here.",
+    "proposed_output": "Section two point one\nDetails here.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_197",
+    "description": "Phase 3: ### Subsection 3\nMore info.",
+    "input": "### Subsection 3\nMore info.",
+    "proposed_output": "Subsection three\nMore info.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_198",
+    "description": "Phase 3: Check [our docs](https://example.com/doc",
+    "input": "Check [our docs](https://example.com/docs) now.",
+    "proposed_output": "Check our docs now.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_199",
+    "description": "Phase 3: Visit [Google](https://google.com) today",
+    "input": "Visit [Google](https://google.com) today.",
+    "proposed_output": "Visit Google today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_200",
+    "description": "Phase 3: This is *important* and _critical_.",
+    "input": "This is *important* and _critical_.",
+    "proposed_output": "This is important and critical.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_201",
+    "description": "Phase 3: Product *5*10* dimension.",
+    "input": "Product *5*10* dimension.",
+    "proposed_output": "Product five*ten dimension.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_202",
+    "description": "Phase 3: Go to https://example.com/help today.",
+    "input": "Go to https://example.com/help today.",
+    "proposed_output": "Go to example dot com slash help today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_203",
+    "description": "Phase 3: Visit www.mysite.org/about for info.",
+    "input": "Visit www.mysite.org/about for info.",
+    "proposed_output": "Visit mysite dot org slash about for info.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_204",
+    "description": "Phase 3: See https://api.service.io/v1/users?id=1",
+    "input": "See https://api.service.io/v1/users?id=100.",
+    "proposed_output": "See api dot service dot io slash v1 slash users question mark id equals one hundred.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_205",
+    "description": "Phase 3: Official site: https://example.com.",
+    "input": "Official site: https://example.com.",
+    "proposed_output": "Official site: example dot com.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_206",
+    "description": "Phase 3: Read docs at https://example.com/api, th",
+    "input": "Read docs at https://example.com/api, then start.",
+    "proposed_output": "Read docs at example dot com slash api, then start.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_207",
+    "description": "Phase 3: Contact alice@example.com for help.",
+    "input": "Contact alice@example.com for help.",
+    "proposed_output": "Contact alice at example dot com for help.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_208",
+    "description": "Phase 3: Support team: support.team@company.org.",
+    "input": "Support team: support.team@company.org.",
+    "proposed_output": "Support team: support dot team at company dot org.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_209",
+    "description": "Phase 3: Inquiries to info+sales@business.co.uk.",
+    "input": "Inquiries to info+sales@business.co.uk.",
+    "proposed_output": "Inquiries to info plus sales at business dot co dot uk.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_210",
+    "description": "Phase 3: Release v2.1.3 is out.",
+    "input": "Release v2.1.3 is out.",
+    "proposed_output": "Release version two point one point three is out.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_211",
+    "description": "Phase 3: Upgrade from v1.0 to v2.0.",
+    "input": "Upgrade from v1.0 to v2.0.",
+    "proposed_output": "Upgrade from version one point zero to version two point zero.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_212",
+    "description": "Phase 3: Router at 192.168.1.1 is ready.",
+    "input": "Router at 192.168.1.1 is ready.",
+    "proposed_output": "Router at one nine two dot one six eight dot one dot one is ready.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_213",
+    "description": "Phase 3: DNS server 8.8.8.8 responds.",
+    "input": "DNS server 8.8.8.8 responds.",
+    "proposed_output": "D N S server eight dot eight dot eight dot eight responds.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_214",
+    "description": "Phase 3: Git commit 4b825dc was merged.",
+    "input": "Git commit 4b825dc was merged.",
+    "proposed_output": "Git commit four b eight two five d c was merged.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_215",
+    "description": "Phase 3: Check sha 1a2b3c4d5e6f today.",
+    "input": "Check sha 1a2b3c4d5e6f today.",
+    "proposed_output": "Check sha one a two b three c four d five e six f today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_216",
+    "description": "Phase 3: Method parseHttpResponse called.",
+    "input": "Method parseHttpResponse called.",
+    "proposed_output": "Method parse Http Response called.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_217",
+    "description": "Phase 3: Variable max_retry_count exceeded.",
+    "input": "Variable max_retry_count exceeded.",
+    "proposed_output": "Variable max retry count exceeded.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_218",
+    "description": "Phase 3: Config DEFAULT_TIMEOUT_SECONDS set.",
+    "input": "Config DEFAULT_TIMEOUT_SECONDS set.",
+    "proposed_output": "Config DEFAULT TIMEOUT SECONDS set.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_219",
+    "description": "Phase 3: Meeting with Mr. Smith and Mrs. Jones.",
+    "input": "Meeting with Mr. Smith and Mrs. Jones.",
+    "proposed_output": "Meeting with Mister Smith and Missus Jones.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_220",
+    "description": "Phase 3: Dr. Watson assisted Sherlock.",
+    "input": "Dr. Watson assisted Sherlock.",
+    "proposed_output": "Doctor Watson assisted Sherlock.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_221",
+    "description": "Phase 3: Prof. Oak gave advice.",
+    "input": "Prof. Oak gave advice.",
+    "proposed_output": "Professor Oak gave advice.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_222",
+    "description": "Phase 3: Speech by Rev. King.",
+    "input": "Speech by Rev. King.",
+    "proposed_output": "Speech by Reverend King.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_223",
+    "description": "Phase 3: Report by Capt. Miller.",
+    "input": "Report by Capt. Miller.",
+    "proposed_output": "Report by Captain Miller.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_224",
+    "description": "Phase 3: Orders from Sgt. Rock.",
+    "input": "Orders from Sgt. Rock.",
+    "proposed_output": "Orders from Sergeant Rock.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_225",
+    "description": "Phase 3: Welcome Gov. Brown.",
+    "input": "Welcome Gov. Brown.",
+    "proposed_output": "Welcome Governor Brown.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_226",
+    "description": "Phase 3: Vote by Sen. Collins.",
+    "input": "Vote by Sen. Collins.",
+    "proposed_output": "Vote by Senator Collins.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_227",
+    "description": "Phase 3: Remarks by Rep. Lewis.",
+    "input": "Remarks by Rep. Lewis.",
+    "proposed_output": "Remarks by Representative Lewis.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_228",
+    "description": "Phase 3: Visiting St. Patrick Cathedral.",
+    "input": "Visiting St. Patrick Cathedral.",
+    "proposed_output": "Visiting Saint Patrick Cathedral.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_229",
+    "description": "Phase 3: Treated at St. Jude Hospital.",
+    "input": "Treated at St. Jude Hospital.",
+    "proposed_output": "Treated at Saint Jude Hospital.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_230",
+    "description": "Phase 3: Office on Main St. today.",
+    "input": "Office on Main St. today.",
+    "proposed_output": "Office on Main Street today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_231",
+    "description": "Phase 3: Apartment on 42nd St.",
+    "input": "Apartment on 42nd St.",
+    "proposed_output": "Apartment on forty-second Street.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_232",
+    "description": "Phase 3: Building on Wall St. in New York.",
+    "input": "Building on Wall St. in New York.",
+    "proposed_output": "Building on Wall Street in New York.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_233",
+    "description": "Phase 3: Call Dr. Jekyll.",
+    "input": "Call Dr. Jekyll.",
+    "proposed_output": "Call Doctor Jekyll.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_234",
+    "description": "Phase 3: Living on Maple Dr.",
+    "input": "Living on Maple Dr.",
+    "proposed_output": "Living on Maple Drive.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_235",
+    "description": "Phase 3: House on Sunset Dr. for sale.",
+    "input": "House on Sunset Dr. for sale.",
+    "proposed_output": "House on Sunset Drive for sale.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_236",
+    "description": "Phase 3: Apples, oranges, pears, etc.",
+    "input": "Apples, oranges, pears, etc.",
+    "proposed_output": "Apples, oranges, pears, etcetera.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_237",
+    "description": "Phase 3: He bought books, pens, etc. Then left.",
+    "input": "He bought books, pens, etc. Then left.",
+    "proposed_output": "He bought books, pens, etcetera. Then left.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_238",
+    "description": "Phase 3: Items like fruit, etc. are healthy.",
+    "input": "Items like fruit, etc. are healthy.",
+    "proposed_output": "Items like fruit, etcetera are healthy.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_239",
+    "description": "All-caps sentence lowercased",
+    "input": "PLEASE CALL ME",
+    "proposed_output": "please call me",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_240",
+    "description": "All-caps warning line lowercased",
+    "input": "WARNING: DO NOT ENTER",
+    "proposed_output": "warning: do not enter",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_241",
+    "description": "US initialism preserved in mixed sentence",
+    "input": "The US economy grew by 3%.",
+    "proposed_output": "The U S economy grew by three percent.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_242",
+    "description": "Lowercase us not converted to initialism",
+    "input": "Let us go to the park.",
+    "proposed_output": "Let us go to the park.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_243",
+    "description": "IT initialism preserved in sentence",
+    "input": "IT support resolved the ticket.",
+    "proposed_output": "I T support resolved the ticket.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_244",
+    "description": "OK verbalized as okay",
+    "input": "Everything is OK today.",
+    "proposed_output": "Everything is okay today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_245",
+    "description": "UNICEF pronounceable acronym preserved",
+    "input": "UNICEF sent medical supplies.",
+    "proposed_output": "UNICEF sent medical supplies.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_246",
+    "description": "Non-dict all-caps company prefix preserved",
+    "input": "XYZ Corp expanded overseas.",
+    "proposed_output": "XYZ Corp expanded overseas.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_247",
+    "description": "Ampersand acronym AT&T",
+    "input": "AT&T reported high quarterly earnings.",
+    "proposed_output": "A T and T reported high quarterly earnings.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_248",
+    "description": "Ampersand acronym P&L",
+    "input": "Check the P&L statement.",
+    "proposed_output": "Check the P and L statement.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_249",
+    "description": "Ampersand acronym R&D",
+    "input": "R&D budget increased by 10%.",
+    "proposed_output": "R and D budget increased by ten percent.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_250",
+    "description": "Ampersand acronym Q&A",
+    "input": "Hold a Q&A session.",
+    "proposed_output": "Hold a Q and A session.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_251",
+    "description": "Ampersand acronym S&P",
+    "input": "S&P 500 index reached a record.",
+    "proposed_output": "S and P five hundred index reached a record.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_252",
+    "description": "All-caps hashtag TTS",
+    "input": "Follow #TTS for updates.",
+    "proposed_output": "Follow hashtag T T S for updates.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_253",
+    "description": "CamelCase hashtag GoodMorning",
+    "input": "Greeting: #GoodMorning everyone.",
+    "proposed_output": "Greeting: hashtag Good Morning everyone.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_254",
+    "description": "Word slash and/or",
+    "input": "Select red and/or blue options.",
+    "proposed_output": "Select red and or blue options.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_255",
+    "description": "Word slash either/or",
+    "input": "Either/or logic in programming.",
+    "proposed_output": "Either or logic in programming.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_256",
+    "description": "Word slash yes/no",
+    "input": "Answer the yes/no question.",
+    "proposed_output": "Answer the yes or no question.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_257",
+    "description": "Abbreviation slash N/A",
+    "input": "Availability: N/A for this item.",
+    "proposed_output": "Availability: not applicable for this item.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_258",
+    "description": "Initialism slash TCP/IP",
+    "input": "Protocol TCP/IP configured.",
+    "proposed_output": "Protocol T C P slash I P configured.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_259",
+    "description": "Street address 123 Main St",
+    "input": "He lives at 123 Main St.",
+    "proposed_output": "He lives at one twenty-three Main Street.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_260",
+    "description": "Street address 1600 Pennsylvania Ave",
+    "input": "Office at 1600 Pennsylvania Ave.",
+    "proposed_output": "Office at sixteen hundred Pennsylvania Avenue.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_261",
+    "description": "Street address 742 Evergreen Terrace",
+    "input": "House number 742 Evergreen Terrace.",
+    "proposed_output": "House number seven forty-two Evergreen Terrace.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_262",
+    "description": "Mixed token v1",
+    "input": "Check version v1 of the schema.",
+    "proposed_output": "Check version v one of the schema.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_263",
+    "description": "Mixed token item-3",
+    "input": "Processing item-3 right now.",
+    "proposed_output": "Processing item dash three right now.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_264",
+    "description": "Mixed token user123",
+    "input": "Welcome user123 to our service.",
+    "proposed_output": "Welcome user one two three to our service.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_265",
+    "description": "Hex word with commit cue",
+    "input": "Git commit deadbeef verified.",
+    "proposed_output": "Git commit d e a d b e e f verified.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_266",
+    "description": "Hex word facade without cue",
+    "input": "Historic building facade restored.",
+    "proposed_output": "Historic building facade restored.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_267",
+    "description": "Inline backtick code span stripped",
+    "input": "Run `python script.py` command.",
+    "proposed_output": "Run python script.py command.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_268",
+    "description": "HTML comment stripped",
+    "input": "<!-- hidden comment -->Visible text.",
+    "proposed_output": "Visible text.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_269",
+    "description": "Case-insensitive HTML block tag",
+    "input": "<P>Paragraph text.</P>",
+    "proposed_output": "Paragraph text.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_270",
+    "description": "Closed script tag and content stripped",
+    "input": "<script>runScript()</script>Safe body.",
+    "proposed_output": "Safe body.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_271",
+    "description": "Self-closing img tag stripped",
+    "input": "<img alt='diagram' src='d.png'>Figure 1.",
+    "proposed_output": "Figure one.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_272",
+    "description": "Pure fraction less than 1 singular unit",
+    "input": "Add 3/4 tsp salt.",
+    "proposed_output": "Add three fourths teaspoon salt.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_273",
+    "description": "SCREAMING_SNAKE identifier",
+    "input": "Constant MAX_BUFFER_SIZE = 1024.",
+    "proposed_output": "Constant max buffer size = one thousand twenty-four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_274",
+    "description": "Emoji drop waving hand",
+    "input": "Hello 👋 world!",
+    "proposed_output": "Hello world!",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_275",
+    "description": "Emoji drop party popper",
+    "input": "Celebration 🎉 tonight.",
+    "proposed_output": "Celebration tonight.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_276",
+    "description": "Emoji drop rocket",
+    "input": "To the moon 🚀 soon.",
+    "proposed_output": "To the moon soon.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_277",
+    "description": "Emoji drop pizza",
+    "input": "I love 🍕 so much.",
+    "proposed_output": "I love so much.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_278",
+    "description": "Emoji drop cat face",
+    "input": "Cute 🐱 pet.",
+    "proposed_output": "Cute pet.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_279",
+    "description": "Emoji drop red heart",
+    "input": "Love ❤️ always.",
+    "proposed_output": "Love always.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_280",
+    "description": "Emoji drop fire",
+    "input": "This track is 🔥 hot.",
+    "proposed_output": "This track is hot.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_281",
+    "description": "Emoji drop check mark",
+    "input": "Task ✅ complete.",
+    "proposed_output": "Task complete.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_282",
+    "description": "Emoji drop warning sign",
+    "input": "Caution ⚠️ ahead.",
+    "proposed_output": "Caution ahead.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_283",
+    "description": "Emoji drop folded hands",
+    "input": "Thank you 🙏 kindly.",
+    "proposed_output": "Thank you kindly.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_284",
+    "description": "Emoticon drop smiling face",
+    "input": "Great job :) today.",
+    "proposed_output": "Great job today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_285",
+    "description": "Emoticon drop grinning face",
+    "input": "Awesome party :D here.",
+    "proposed_output": "Awesome party here.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_286",
+    "description": "Emoticon drop winking face",
+    "input": "See you soon ;) friend.",
+    "proposed_output": "See you soon friend.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_287",
+    "description": "Emoticon drop heart",
+    "input": "Love you <3 forever.",
+    "proposed_output": "Love you forever.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_288",
+    "description": "Emoticon drop laughing",
+    "input": "That was hilarious XD really.",
+    "proposed_output": "That was hilarious really.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_289",
+    "description": "Non-speech drop laughter",
+    "input": "He said [laughter] that was funny.",
+    "proposed_output": "He said that was funny.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_290",
+    "description": "Non-speech drop applause",
+    "input": "The audience gave (applause) warmly.",
+    "proposed_output": "The audience gave warmly.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_291",
+    "description": "Non-speech drop inaudible",
+    "input": "Tape had [inaudible] sound.",
+    "proposed_output": "Tape had sound.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_292",
+    "description": "Non-speech drop sigh",
+    "input": "She gave a [sigh] of relief.",
+    "proposed_output": "She gave a of relief.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_293",
+    "description": "Non-speech drop cough",
+    "input": "Excuse me [cough] please.",
+    "proposed_output": "Excuse me please.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_294",
+    "description": "Non-speech drop pause",
+    "input": "Hold on [pause] one moment.",
+    "proposed_output": "Hold on one moment.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_295",
+    "description": "Math simple addition",
+    "input": "Calculate: 5 + 3 = 8.",
+    "proposed_output": "Calculate: five plus three equals eight.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_296",
+    "description": "Math subtraction",
+    "input": "Subtract: 15 - 5 = 10.",
+    "proposed_output": "Subtract: fifteen minus five equals ten.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_297",
+    "description": "Math multiplication",
+    "input": "Multiply: 7 * 8 = 56.",
+    "proposed_output": "Multiply: seven times eight equals fifty-six.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_298",
+    "description": "Math division",
+    "input": "Divide: 100 / 5 = 20.",
+    "proposed_output": "Divide: one hundred divided by five equals twenty.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_299",
+    "description": "Math equality with decimal",
+    "input": "Equation: 1.5 + 2.5 = 4.0.",
+    "proposed_output": "Equation: one point five plus two point five equals four point zero.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_300",
+    "description": "Math inequality",
+    "input": "Statement: 7 ≠ 12.",
+    "proposed_output": "Statement: seven does not equal twelve.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_301",
+    "description": "Math less than",
+    "input": "Condition: 3 < 9.",
+    "proposed_output": "Condition: three is less than nine.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_302",
+    "description": "Math greater than",
+    "input": "Condition: 100 > 50.",
+    "proposed_output": "Condition: one hundred is greater than fifty.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_303",
+    "description": "Math less than or equal",
+    "input": "Condition: 5 <= 10.",
+    "proposed_output": "Condition: five is less than or equal to ten.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_304",
+    "description": "Math greater than or equal",
+    "input": "Condition: 25 >= 20.",
+    "proposed_output": "Condition: twenty-five is greater than or equal to twenty.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_305",
+    "description": "Math plus or minus tolerance",
+    "input": "Margin: ±2 percent.",
+    "proposed_output": "Margin: plus or minus two percent.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_306",
+    "description": "Math plus or minus between",
+    "input": "Measurement: 100 ± 5 kg.",
+    "proposed_output": "Measurement: one hundred plus or minus five kilograms.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_307",
+    "description": "Dimensions 2D small",
+    "input": "Board: 2x4 inches.",
+    "proposed_output": "Board: two by four inches.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_308",
+    "description": "Dimensions 2D medium",
+    "input": "Rug: 8x10 feet.",
+    "proposed_output": "Rug: eight by ten feet.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_309",
+    "description": "Dimensions 2D large",
+    "input": "Banner: 50x100 cm.",
+    "proposed_output": "Banner: fifty by one hundred centimeters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_310",
+    "description": "Dimensions 3D box",
+    "input": "Container: 10x15x20 cm.",
+    "proposed_output": "Container: ten by fifteen by twenty centimeters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_311",
+    "description": "Dimensions 3D cargo",
+    "input": "Crate: 2 x 3 x 4 meters.",
+    "proposed_output": "Crate: two by three by four meters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_312",
+    "description": "Display 4K resolution",
+    "input": "Monitor: 3840x2160 pixels.",
+    "proposed_output": "Monitor: thirty-eight forty by twenty-one sixty pixels.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_313",
+    "description": "Scientific notation 10^6",
+    "input": "Yield: 2.5 x 10^6 joules.",
+    "proposed_output": "Yield: two point five times ten to the sixth joules.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_314",
+    "description": "Scientific notation 10^12",
+    "input": "Mass: 1.2 x 10^12 kg.",
+    "proposed_output": "Mass: one point two times ten to the power of twelve kilograms.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_315",
+    "description": "Scientific notation negative exp",
+    "input": "Radius: 5.3 × 10⁻¹¹ meters.",
+    "proposed_output": "Radius: five point three times ten to the negative eleven meters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_316",
+    "description": "Scientific E-notation small",
+    "input": "Charge: 1.6E-19 coulombs.",
+    "proposed_output": "Charge: one point six times ten to the negative nineteen coulombs.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_317",
+    "description": "Scientific E-notation big",
+    "input": "Distance: 9.46e15 meters.",
+    "proposed_output": "Distance: nine point four six times ten to the power of fifteen meters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_318",
+    "description": "Power 2^8",
+    "input": "Memory: 2^8 bytes.",
+    "proposed_output": "Memory: two to the eighth bytes.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_319",
+    "description": "Exponent squared",
+    "input": "Area is 9² meters.",
+    "proposed_output": "Area is nine squared meters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_320",
+    "description": "Exponent cubed",
+    "input": "Volume is 4³ liters.",
+    "proposed_output": "Volume is four cubed liters.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_321",
+    "description": "Square root 25",
+    "input": "Find √25 now.",
+    "proposed_output": "Find square root of twenty-five now.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_322",
+    "description": "Square root 100",
+    "input": "Compute √100.",
+    "proposed_output": "Compute square root of one hundred.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_323",
+    "description": "Chemical water and carbon dioxide",
+    "input": "Reaction of H2O and CO2.",
+    "proposed_output": "Reaction of H two O and C O two.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_324",
+    "description": "Chemical oxygen and methane",
+    "input": "Mixture of O2 and CH4.",
+    "proposed_output": "Mixture of O two and C H four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_325",
+    "description": "Chemical sulfuric acid",
+    "input": "Concentrated H2SO4 bottle.",
+    "proposed_output": "Concentrated H two S O four bottle.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_326",
+    "description": "Chemical ammonia and nitrogen dioxide",
+    "input": "Gases NH3 and NO2.",
+    "proposed_output": "Gases N H three and N O two.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_327",
+    "description": "Greek alpha beta gamma",
+    "input": "Angles α, β, and γ.",
+    "proposed_output": "Angles alpha, beta, and gamma.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_328",
+    "description": "Greek lambda wavelength",
+    "input": "Wavelength λ in vacuum.",
+    "proposed_output": "Wavelength lambda in vacuum.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_329",
+    "description": "Greek delta change",
+    "input": "Change Δ in enthalpy.",
+    "proposed_output": "Change delta in enthalpy.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_330",
+    "description": "Greek sigma sum",
+    "input": "Total sum Σ across elements.",
+    "proposed_output": "Total sum sigma across elements.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_331",
+    "description": "Greek infinity limit",
+    "input": "Approaching ∞ steadily.",
+    "proposed_output": "Approaching infinity steadily.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_332",
+    "description": "Ligature fi fl in word",
+    "input": "A ﬁne ﬂight today.",
+    "proposed_output": "A fine flight today.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_333",
+    "description": "Ligature ae oe aesthetic",
+    "input": "An æsthetic œvre.",
+    "proposed_output": "An aesthetic oevre.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_334",
+    "description": "Repeated exclamation and question",
+    "input": "What?? Really!! Wow....",
+    "proposed_output": "What? Really! Wow...",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_335",
+    "description": "Hyphen break repair",
+    "input": "A quick exam-\nple word.",
+    "proposed_output": "A quick example word.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_336",
+    "description": "Prose em dash",
+    "input": "The answer—obvious to all—was yes.",
+    "proposed_output": "The answer, obvious to all, was yes.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "gold_337",
+    "description": "Math British hundreds and",
+    "input": "Sum: 100 + 20 = 120.",
+    "proposed_output": "Sum: one hundred plus twenty equals one hundred and twenty.",
+    "locale": "en-GB",
+    "verified": false
+  },
+  {
+    "id": "gold_338",
+    "description": "Dimensions Indian lakh context",
+    "input": "Dimensions: 10x20 in ₹1,00,000 project.",
+    "proposed_output": "Dimensions: ten by twenty in one lakh rupees project.",
+    "locale": "en-IN",
+    "verified": false
+  }
+]

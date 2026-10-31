@@ -1,0 +1,258 @@
+[
+  {
+    "id": "phone_edge_01",
+    "category": "B1",
+    "input": "Apt 4B",
+    "proposed_output": "Apt four B",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_02",
+    "category": "B1",
+    "input": "Unit 12A",
+    "proposed_output": "Unit twelve A",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_03",
+    "category": "B1",
+    "input": "Seat 14C",
+    "proposed_output": "Seat fourteen C",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_04",
+    "category": "B1",
+    "input": "Row 5A",
+    "proposed_output": "Row five A",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_05",
+    "category": "B1",
+    "input": "Gate B7",
+    "proposed_output": "Gate B seven",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_06",
+    "category": "B1",
+    "input": "Terminal 2A",
+    "proposed_output": "Terminal two A",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_07",
+    "category": "B1",
+    "input": "Circuit draw is 5A.",
+    "proposed_output": "Circuit draw is five amperes.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_08",
+    "category": "B2",
+    "input": "0x1F",
+    "proposed_output": "zero x one F",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_09",
+    "category": "B2",
+    "input": "0xFF00",
+    "proposed_output": "zero x F F zero zero",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_10",
+    "category": "B3",
+    "input": "Your OTP is 482913.",
+    "proposed_output": "Your O T P is four eight two nine one three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_11",
+    "category": "B3",
+    "input": "Your PIN is 1234.",
+    "proposed_output": "Your PIN is one two three four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_12",
+    "category": "B3",
+    "input": "Account number 12345678.",
+    "proposed_output": "Account number one two three four five six seven eight.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_13",
+    "category": "B3",
+    "input": "Order number 100245 and tracking 1Z999AA10123456784.",
+    "proposed_output": "Order number one zero zero two four five and tracking one Z nine nine nine A A one zero one two three four five six seven eight four.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_14",
+    "category": "B3",
+    "input": "Confirmation code 7H4K9Q.",
+    "proposed_output": "Confirmation code seven H four K nine Q.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_15",
+    "category": "B3",
+    "input": "Card ending in 4417.",
+    "proposed_output": "Card ending in four four one seven.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_16",
+    "category": "B3",
+    "input": "ZIP 90210.",
+    "proposed_output": "ZIP nine oh two one oh.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_17",
+    "category": "B3",
+    "input": "PNR ABC123.",
+    "proposed_output": "P N R A B C one two three.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_18",
+    "category": "B3",
+    "input": "Flight AI 202 departs at 6:45 AM.",
+    "proposed_output": "Flight A I two oh two departs at six forty-five A M.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_19",
+    "category": "B3",
+    "input": "Open 24x7.",
+    "proposed_output": "Open twenty-four seven.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_20",
+    "category": "B3",
+    "input": "Your total is ,249.99.",
+    "proposed_output": "Your total is ,two hundred forty-nine point nine nine.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_21",
+    "category": "B3",
+    "input": "Press 1 for sales, 2 for support.",
+    "proposed_output": "Press one for sales, two for support.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_22",
+    "category": "B4",
+    "input": "Pay Rs. 1,50,000 by 5th March.",
+    "proposed_output": "Pay one lakh fifty thousand rupees by March fifth.",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_23",
+    "category": "B4",
+    "input": "Rs 500/-",
+    "proposed_output": "five hundred rupees",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_24",
+    "category": "B4",
+    "input": "₹500/-",
+    "proposed_output": "five hundred rupees",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_25",
+    "category": "B4",
+    "input": "Pincode 500001.",
+    "proposed_output": "Pincode five zero zero zero zero one.",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_26",
+    "category": "B4",
+    "input": "Call 98765 43210.",
+    "proposed_output": "Call nine eight seven six five, four three two one zero.",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_27",
+    "category": "B4",
+    "input": "Mr. Rao, Flat No. 5, 2nd Floor.",
+    "proposed_output": "Mister Rao, Flat number five, second floor.",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_28",
+    "category": "B4",
+    "input": "Meet at 6:30 pm IST.",
+    "proposed_output": "Meet at six thirty P M I S T.",
+    "locale": "en-IN",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_29",
+    "category": "B6",
+    "input": "3:15:30",
+    "proposed_output": "three fifteen and thirty seconds",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_30",
+    "category": "B6",
+    "input": "Chapter 3:16.",
+    "proposed_output": "Chapter three, sixteen.",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_31",
+    "category": "B6",
+    "input": "-",
+    "proposed_output": "-",
+    "locale": "en-US",
+    "verified": false
+  },
+  {
+    "id": "phone_edge_32",
+    "category": "B6",
+    "input": "()",
+    "proposed_output": "()",
+    "locale": "en-US",
+    "verified": false
+  }
+]

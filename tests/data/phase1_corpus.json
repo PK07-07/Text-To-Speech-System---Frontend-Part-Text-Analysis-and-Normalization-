@@ -1,0 +1,191 @@
+[
+  {
+    "category": "empty",
+    "input": "",
+    "expected": "",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "whitespace",
+    "input": "   \t\n  ",
+    "expected": "",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "cardinal",
+    "input": "0",
+    "expected": "zero",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "cardinal",
+    "input": "42",
+    "expected": "forty-two",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "cardinal",
+    "input": "-5",
+    "expected": "negative five",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "cardinal",
+    "input": "105",
+    "expected": "one hundred five",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "cardinal",
+    "input": "105",
+    "expected": "one hundred and five",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "cardinal_grouped",
+    "input": "1,000,000",
+    "expected": "one million",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "cardinal_thin_space",
+    "input": "1 000 000",
+    "expected": "one million",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "ordinal",
+    "input": "1st",
+    "expected": "first",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "ordinal",
+    "input": "23rd",
+    "expected": "twenty-third",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "ordinal",
+    "input": "100th",
+    "expected": "one hundredth",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "decimal",
+    "input": "3.14",
+    "expected": "three point one four",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "decimal_trailing_zero",
+    "input": "3.50",
+    "expected": "three point five zero",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "percentage",
+    "input": "25%",
+    "expected": "twenty-five percent",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "percentage_negative",
+    "input": "-4.5%",
+    "expected": "negative four point five percent",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "year",
+    "input": "1984",
+    "expected": "nineteen eighty-four",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "year",
+    "input": "2026",
+    "expected": "twenty twenty-six",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency_usd",
+    "input": "$25",
+    "expected": "twenty-five dollars",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency_usd_cents",
+    "input": "$25.50",
+    "expected": "twenty-five dollars and fifty cents",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency_gbp",
+    "input": "£1",
+    "expected": "one pound",
+    "status": "success",
+    "locale": "en-GB"
+  },
+  {
+    "category": "currency_eur",
+    "input": "€2.75",
+    "expected": "two euros and seventy-five cents",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency_inr",
+    "input": "₹500",
+    "expected": "five hundred rupees",
+    "status": "success",
+    "locale": "en-IN"
+  },
+  {
+    "category": "currency_jpy",
+    "input": "¥1000",
+    "expected": "one thousand yen",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency_magnitude",
+    "input": "$5K",
+    "expected": "five thousand dollars",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "currency_paren_negative",
+    "input": "($500)",
+    "expected": "negative five hundred dollars",
+    "status": "success",
+    "locale": "en-US"
+  },
+  {
+    "category": "protected_url",
+    "input": "Visit https://example.com/item/123 for details.",
+    "expected": "Visit example dot com slash item slash one hundred twenty-three for details.",
+    "status": "success",
+    "locale": "en-US"
+  }
+]

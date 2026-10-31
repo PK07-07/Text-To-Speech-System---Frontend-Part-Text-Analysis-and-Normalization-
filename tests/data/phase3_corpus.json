@@ -1,0 +1,770 @@
+[
+  {
+    "input": "<p>First paragraph.</p><p>Second paragraph.</p>",
+    "expected": "First paragraph. Second paragraph.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "<div>Line one.</div><div>Line two.</div>",
+    "expected": "Line one. Line two.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Heading<h1>Title Here</h1>Body text.",
+    "expected": "Heading Title Here Body text.",
+    "locale": "en-US",
+    "status": "partial"
+  },
+  {
+    "input": "Line 1<br>Line 2<br/>Line 3.",
+    "expected": "Line one Line two Line three.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "This is <b>bold</b> and <i>italic</i> and <u>underlined</u>.",
+    "expected": "This is bold and italic and underlined.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Span <span>with words</span> inside.",
+    "expected": "Span with words inside.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Hello<script>alert('xss');</script> world.",
+    "expected": "Hello world.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Text<style>body { color: red; }</style> here.",
+    "expected": "Text here.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Tom &amp; Jerry at &quot;home&#39;s&quot; place.",
+    "expected": "Tom and Jerry at \"home's\" place.",
+    "locale": "en-US",
+    "status": "partial"
+  },
+  {
+    "input": "Values: 10 &lt; 20 and 50 &gt; 30.",
+    "expected": "Values: ten is less than twenty and fifty is greater than thirty.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Five&nbsp;apples in a basket.",
+    "expected": "Five apples in a basket.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "# Heading 1\nContent paragraph.",
+    "expected": "Heading one\nContent paragraph.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "## Section 2.1\nDetails here.",
+    "expected": "Section two point one\nDetails here.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "### Subsection 3\nMore info.",
+    "expected": "Subsection three\nMore info.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Check [our docs](https://example.com/docs) now.",
+    "expected": "Check our docs now.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Visit [Google](https://google.com) today.",
+    "expected": "Visit Google today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "This is *important* and _critical_.",
+    "expected": "This is important and critical.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Product *5*10* dimension.",
+    "expected": "Product five times ten dimension.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Go to https://example.com/help today.",
+    "expected": "Go to example dot com slash help today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Visit www.mysite.org/about for info.",
+    "expected": "Visit mysite dot org slash about for info.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "See https://api.service.io/v1/users?id=100.",
+    "expected": "See api dot service dot io slash v one slash users question mark id equals one hundred.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Official site: https://example.com.",
+    "expected": "Official site: example dot com.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Read docs at https://example.com/api, then start.",
+    "expected": "Read docs at example dot com slash api, then start.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Contact alice@example.com for help.",
+    "expected": "Contact alice at example dot com for help.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Support team: support.team@company.org.",
+    "expected": "Support team: support dot team at company dot org.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Inquiries to info+sales@business.co.uk.",
+    "expected": "Inquiries to info plus sales at business dot co dot uk.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Release v2.1.3 is out.",
+    "expected": "Release version two point one point three is out.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Upgrade from v1.0 to v2.0.",
+    "expected": "Upgrade from version one point zero to version two point zero.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Router at 192.168.1.1 is ready.",
+    "expected": "Router at one nine two dot one six eight dot one dot one is ready.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "DNS server 8.8.8.8 responds.",
+    "expected": "D N S server eight dot eight dot eight dot eight responds.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Git commit 4b825dc was merged.",
+    "expected": "Git commit four b eight two five d c was merged.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Check sha 1a2b3c4d5e6f today.",
+    "expected": "Check sha one a two b three c four d five e six f today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Method parseHttpResponse called.",
+    "expected": "Method parse Http Response called.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Variable max_retry_count exceeded.",
+    "expected": "Variable max retry count exceeded.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Config DEFAULT_TIMEOUT_SECONDS set.",
+    "expected": "Config default timeout seconds set.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Meeting with Mr. Smith and Mrs. Jones.",
+    "expected": "Meeting with Mister Smith and Missus Jones.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Dr. Watson assisted Sherlock.",
+    "expected": "Doctor Watson assisted Sherlock.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Prof. Oak gave advice.",
+    "expected": "Professor Oak gave advice.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Speech by Rev. King.",
+    "expected": "Speech by Reverend King.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Report by Capt. Miller.",
+    "expected": "Report by Captain Miller.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Orders from Sgt. Rock.",
+    "expected": "Orders from Sergeant Rock.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Welcome Gov. Brown.",
+    "expected": "Welcome Governor Brown.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Vote by Sen. Collins.",
+    "expected": "Vote by Senator Collins.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Remarks by Rep. Lewis.",
+    "expected": "Remarks by Representative Lewis.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Visiting St. Patrick Cathedral.",
+    "expected": "Visiting Saint Patrick Cathedral.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Treated at St. Jude Hospital.",
+    "expected": "Treated at Saint Jude Hospital.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Office on Main St. today.",
+    "expected": "Office on Main Street today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Apartment on 42nd St.",
+    "expected": "Apartment on forty-second Street.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Building on Wall St. in New York.",
+    "expected": "Building on Wall Street in New York.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Call Dr. Jekyll.",
+    "expected": "Call Doctor Jekyll.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Living on Maple Dr.",
+    "expected": "Living on Maple Drive.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "House on Sunset Dr. for sale.",
+    "expected": "House on Sunset Drive for sale.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Apples, oranges, pears, etc.",
+    "expected": "Apples, oranges, pears, etcetera.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "He bought books, pens, etc. Then left.",
+    "expected": "He bought books, pens, etcetera. Then left.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Items like fruit, etc. are healthy.",
+    "expected": "Items like fruit, etcetera are healthy.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Citrus fruits, e.g., oranges and lemons.",
+    "expected": "Citrus fruits, for example, oranges and lemons.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "The main issue, i.e., latency.",
+    "expected": "The main issue, that is, latency.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Match: Yankees vs. Red Sox.",
+    "expected": "Match: Yankees versus Red Sox.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Costs approx. 75 dollars.",
+    "expected": "Costs approximately seventy-five dollars.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Contact accounting dept. today.",
+    "expected": "Contact accounting department today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Living in apt. 4.",
+    "expected": "Living in apartment four.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "The avg. speed was 60 mph.",
+    "expected": "The average speed was sixty miles per hour.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Founded by Acme Corp. in 1985.",
+    "expected": "Founded by Acme Corporation in nineteen eighty-five.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Manufactured by Global Co. Ltd. recently.",
+    "expected": "Manufactured by Global Company Limited recently.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Author J. K. Rowling wrote novels.",
+    "expected": "Author J K Rowling wrote novels.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Books by George R. R. Martin.",
+    "expected": "Books by George R R Martin.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Speech by John F. Kennedy.",
+    "expected": "Speech by John F Kennedy.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Agents from the FBI and CIA.",
+    "expected": "Agents from the F B I and C I A.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Serving in the USA and UK.",
+    "expected": "Serving in the U S A and U K.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Developing modern TTS with GPU acceleration.",
+    "expected": "Developing modern T T S with G P U acceleration.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Visiting delegates from the UN and EU.",
+    "expected": "Visiting delegates from the U N and E U.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "NASA launched a satellite with NATO tracking.",
+    "expected": "NASA launched a satellite with NATO tracking.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "UNESCO heritage site protected.",
+    "expected": "UNESCO heritage site protected.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Strategy for B2B and B2C sales.",
+    "expected": "Strategy for B to B and B to C sales.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Fleet of A320 and B737 aircraft.",
+    "expected": "Fleet of A three twenty and B seven thirty-seven aircraft.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Upgraded to 5G on a 4K screen.",
+    "expected": "Upgraded to five G on a four K screen.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Watch in 1080p and 720p resolution.",
+    "expected": "Watch in ten eighty P and seven twenty P resolution.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Tickets @ $15 each.",
+    "expected": "Tickets at fifteen dollars each.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Follow @developer on social.",
+    "expected": "Follow at developer on social.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Playing Rock & Roll music.",
+    "expected": "Playing Rock and Roll music.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Brand: Ben & Jerry's.",
+    "expected": "Brand: Ben and Jerry's.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Player is #1 in rank.",
+    "expected": "Player is number one in rank.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Trending tag #TTS today.",
+    "expected": "Trending tag hashtag T T S today.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Duration ~10 minutes.",
+    "expected": "Duration approximately ten minutes.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Option either/or available.",
+    "expected": "Option either or available.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Software \u00a9 2024 by Acme.",
+    "expected": "Software copyright twenty twenty-four by Acme.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Prefix\n```python\nprint(123)\n```\nSuffix",
+    "expected": "Prefix\nSuffix",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "<b>unclosed text</b>",
+    "expected": "unclosed text",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "<b>unclosed",
+    "expected": "unclosed",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "<!-- comment -->text",
+    "expected": "text",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "<P>Upper</P>",
+    "expected": "Upper",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "<img alt=\"x\">Photo",
+    "expected": "Photo",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Run `code` now.",
+    "expected": "Run code now.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "- item",
+    "expected": "- item",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "1. item",
+    "expected": "one. item",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "2*3*4",
+    "expected": "two times three times four",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "PLEASE CALL ME",
+    "expected": "please call me",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "WARNING: DO NOT ENTER",
+    "expected": "warning: do not enter",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "The US economy",
+    "expected": "The U S economy",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Let us go",
+    "expected": "Let us go",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "IT support",
+    "expected": "I T support",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "OK",
+    "expected": "okay",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "UNICEF",
+    "expected": "UNICEF",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "XYZ Corp",
+    "expected": "XYZ Corp",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "CEOs met FBI's team",
+    "expected": "C E Os met F B I's team",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "AT&T",
+    "expected": "A T and T",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "P&L",
+    "expected": "P and L",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "R&D",
+    "expected": "R and D",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Q&A",
+    "expected": "Q and A",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "S&P",
+    "expected": "S and P",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "#TTS",
+    "expected": "hashtag T T S",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "#GoodMorning",
+    "expected": "hashtag Good Morning",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "and/or",
+    "expected": "and or",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "either/or",
+    "expected": "either or",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "yes/no",
+    "expected": "yes or no",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Status: N/A",
+    "expected": "Status: not applicable",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "TCP/IP",
+    "expected": "T C P slash I P",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "3/4 tsp",
+    "expected": "three fourths teaspoon",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "123 Main St.",
+    "expected": "one twenty-three Main Street.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "1600 Pennsylvania Ave.",
+    "expected": "sixteen hundred Pennsylvania Avenue.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "v1",
+    "expected": "v one",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "item-3",
+    "expected": "item dash three",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "user123",
+    "expected": "user one two three",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "A delicious deadbeef steak.",
+    "expected": "A delicious deadbeef steak.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Fixed in commit deadbeef.",
+    "expected": "Fixed in commit d e a d b e e f.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "Building facade.",
+    "expected": "Building facade.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "sha facade",
+    "expected": "sha f a c a d e",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "input": "MAX_BUFFER_SIZE",
+    "expected": "max buffer size",
+    "locale": "en-US",
+    "status": "success"
+  }
+]

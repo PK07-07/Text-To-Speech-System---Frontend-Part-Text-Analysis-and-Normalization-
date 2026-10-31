@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gold_001",
+    "description": "Sentence mixing multiple currencies, decimals, and ordinals",
+    "input": "He paid $12.50 for the 1st ticket and €5 for the 2nd.",
+    "expected": "He paid twelve dollars and fifty cents for the first ticket and five euros for the second.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "gold_002",
+    "description": "Negative numbers and percentage in finance sentence",
+    "input": "The revenue dropped by -3.2% while expenses increased by 15%.",
+    "expected": "The revenue dropped by negative three point two percent while expenses increased by fifteen percent.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "gold_003",
+    "description": "Thin-space grouped number inside prose",
+    "input": "The city has 1\u2009250\u2009000 residents as of 2024.",
+    "expected": "The city has one million two hundred fifty thousand residents as of twenty twenty-four.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "gold_004",
+    "description": "Contractions preserved and smart quotes normalized",
+    "input": "“Don’t worry, the price isn’t $100.”",
+    "expected": "\"Don't worry, the price isn't one hundred dollars.\"",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "gold_005",
+    "description": "Protected URL containing numbers does not get normalized",
+    "input": "Check https://github.com/project/commit/7b1c4 for details.",
+    "expected": "Check https://github.com/project/commit/7b1c4 for details.",
+    "locale": "en-US",
+    "status": "success"
+  },
+  {
+    "id": "gold_006",
+    "description": "British English 'and' in hundreds",
+    "input": "The package contains 305 items costing £105.",
+    "expected": "The package contains three hundred and five items costing one hundred and five pounds.",
+    "locale": "en-GB",
+    "status": "success"
+  },
+  {
+    "id": "gold_007",
+    "description": "Parenthesized accounting negative amount",
+    "input": "Net operating loss was ($2500) this quarter.",
+    "expected": "Net operating loss was negative two thousand five hundred dollars this quarter.",
+    "locale": "en-US",
+    "status": "success"
+  }
+]

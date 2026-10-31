@@ -1,0 +1,50 @@
+﻿id,source_file,category,input,proposed_output,decision,corrected_output
+gold_161,gold_inputs.json,Currency range magnitudes,Earned -.,Earned -.,,
+gold_162,gold_inputs.json,Currency range decimals,Price: .50-.50.,Price: .50-.50.,,
+gold_163,gold_inputs.json,Different currencies stay separate,Exchange -EUR10.,Exchange -ten euros.,,
+gold_164,gold_inputs.json,Unit length attached,Run 5km today.,Run five kilometers today.,,
+gold_165,gold_inputs.json,Unit mass plural,Box is 10 kg.,Box is ten kilograms.,,
+gold_166,gold_inputs.json,Unit mass singular,Pack 1 kg.,Pack one kilogram.,,
+gold_167,gold_inputs.json,Unit mass zero,Scale shows 0 kg.,Scale shows zero kilograms.,,
+gold_168,gold_inputs.json,Unit mass decimal,Sample is 1.5 kg.,Sample is one point five kilograms.,,
+gold_169,gold_inputs.json,Unit speed,Speed limit 60 km/h.,Speed limit sixty kilometers per hour.,,
+gold_170,gold_inputs.json,Unit temperature Celsius,Temp is 25°C.,Temp is twenty-five degrees Celsius.,,
+gold_171,gold_inputs.json,Unit digital GB,Has 16 GB RAM.,Has sixteen gigabytes RAM.,,
+gold_172,gold_inputs.json,Unit electrical Volts,Input 120 V AC.,Input one hundred twenty volts AC.,,
+gold_173,gold_inputs.json,Unit electrical Hertz,Grid at 50 Hz.,Grid at fifty hertz.,,
+gold_174,gold_inputs.json,Unit range,Hike 10-20 km daily.,Hike ten to twenty kilometers daily.,,
+gold_175,gold_inputs.json,NANP phone with parens,Call (555) 123-4567.,"Call five five five, one two three, four five six seven.",,
+gold_176,gold_inputs.json,NANP phone with hyphens,Reach 555-123-4567.,"Reach five five five, one two three, four five six seven.",,
+gold_177,gold_inputs.json,NANP phone with country code,Dial +1-555-123-4567.,"Dial one, five five five, one two three, four five six seven.",,
+gold_178,gold_inputs.json,India mobile phone,Contact +91 98765 43210.,"Contact plus nine one, nine eight seven six five, four three two one oh.",,
+gold_179,gold_inputs.json,Local 7-digit phone,Call 555-0199.,"Call five five five, oh one nine nine.",,
+gold_180,gold_inputs.json,Product code RX-78,Model RX-78 online.,Model R X seventy-eight online.,,
+gold_181,gold_inputs.json,Product code WD-40,Apply WD-40 spray.,Apply W D forty spray.,,
+gold_182,gold_inputs.json,Exact lexicon COVID-19,The COVID-19 virus.,The covid nineteen virus.,,
+gold_183,gold_inputs.json,Exact lexicon F-16,Fighter F-16 flying.,Fighter F sixteen flying.,,
+gold_184,gold_inputs.json,Phase 3: <p>First paragraph.</p><p>Second paragra,<p>First paragraph.</p><p>Second paragraph.</p>, First paragraph.  Second paragraph. ,,
+gold_185,gold_inputs.json,Phase 3: <div>Line one.</div><div>Line two.</div>,<div>Line one.</div><div>Line two.</div>, Line one.  Line two. ,,
+gold_186,gold_inputs.json,Phase 3: Heading<h1>Title Here</h1>Body text.,Heading<h1>Title Here</h1>Body text.,Heading Title Here Body text.,,
+gold_187,gold_inputs.json,Phase 3: Line 1<br>Line 2<br/>Line 3.,Line 1<br>Line 2<br/>Line 3.,Line one Line two Line three.,,
+gold_188,gold_inputs.json,Phase 3: This is <b>bold</b> and <i>italic</i> an,This is <b>bold</b> and <i>italic</i> and <u>underlined</u>.,This is bold and italic and underlined.,,
+gold_189,gold_inputs.json,Phase 3: Span <span>with words</span> inside.,Span <span>with words</span> inside.,Span with words inside.,,
+gold_190,gold_inputs.json,Phase 3: Hello<script>alert('xss');</script> worl,Hello<script>alert('xss');</script> world.,Hello world.,,
+gold_191,gold_inputs.json,Phase 3: Text<style>body { color: red; }</style> ,Text<style>body { color: red; }</style> here.,Text here.,,
+gold_192,gold_inputs.json,Phase 3: Tom &amp; Jerry at &quot;home&#39;s&quot,Tom &amp; Jerry at &quot;home&#39;s&quot; place.,"Tom and Jerry at ""home's"" place.",,
+gold_193,gold_inputs.json,Phase 3: Values: 10 &lt; 20 and 50 &gt; 30.,Values: 10 &lt; 20 and 50 &gt; 30.,Values: ten < twenty and fifty > thirty.,,
+gold_194,gold_inputs.json,Phase 3: Five&nbsp;apples in a basket.,Five&nbsp;apples in a basket.,Five apples in a basket.,,
+gold_195,gold_inputs.json,"Phase 3: # Heading 1
+Content paragraph.","# Heading 1
+Content paragraph.","Heading one
+Content paragraph.",,
+gold_196,gold_inputs.json,"Phase 3: ## Section 2.1
+Details here.","## Section 2.1
+Details here.","Section two point one
+Details here.",,
+gold_197,gold_inputs.json,"Phase 3: ### Subsection 3
+More info.","### Subsection 3
+More info.","Subsection three
+More info.",,
+gold_198,gold_inputs.json,Phase 3: Check [our docs](https://example.com/doc,Check [our docs](https://example.com/docs) now.,Check our docs now.,,
+gold_199,gold_inputs.json,Phase 3: Visit [Google](https://google.com) today,Visit [Google](https://google.com) today.,Visit Google today.,,
+gold_200,gold_inputs.json,Phase 3: This is *important* and _critical_.,This is *important* and _critical_.,This is important and critical.,,
