@@ -5,7 +5,7 @@
 [![Test Suite](https://img.shields.io/badge/tests-464%20passing-brightgreen.svg)](#testing--verification)
 [![Code Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen.svg)](#testing--verification)
 [![Architecture](https://img.shields.io/badge/architecture-monotonic%20resolver-blueviolet.svg)](#core-architecture--pipeline)
-[![Status](https://img.shields.io/badge/status-production--ready-success.svg)](#benchmarks--sla-performance)
+
 
 A high-performance, standard-library-only Python 3.11+ English text analysis and normalization engine designed specifically for **Text-to-Speech (TTS) synthesis frontends**.
 
