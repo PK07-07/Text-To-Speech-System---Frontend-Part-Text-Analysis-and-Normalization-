@@ -1,0 +1,27 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "source": "IATA standard airport coding tables and open flight schedules",
+    "license": "Public Domain / CC0",
+    "description": "Top 150+ international airport IATA codes plus major regional hubs for TTS spelling disambiguation."
+  },
+  "airports": [
+    "ABQ", "ACC", "ADD", "ALA", "ALB", "ALG", "AMD", "AMS", "ANC", "ARN",
+    "ATH", "ATL", "AUH", "AUS", "BAH", "BCN", "BDL", "BEG", "BFS", "BHX",
+    "BKK", "BLR", "BNA", "BOM", "BOS", "BRS", "BRU", "BUD", "BUF", "BWI",
+    "CAI", "CAN", "CCU", "CDG", "CHC", "CHS", "CLE", "CLT", "CMH", "CMN",
+    "COK", "CPH", "CPT", "CVG", "DAL", "DEL", "DEN", "DFW", "DME", "DMM",
+    "DOH", "DSM", "DTW", "DUB", "DUR", "DXB", "EDI", "ELP", "EVN", "EWR",
+    "FCO", "FLL", "FRA", "GLA", "GVA", "GYD", "HEL", "HKG", "HND", "HNL",
+    "HOU", "HYD", "IAH", "ICN", "IND", "IST", "JAI", "JAX", "JED", "JFK",
+    "JNB", "KBP", "KCI", "KUL", "KWI", "LAS", "LAX", "LED", "LGW", "LHR",
+    "LKO", "LPL", "MAD", "MAA", "MAN", "MCI", "MCO", "MDW", "MED", "MEL",
+    "MEM", "MEX", "MIA", "MKE", "MMA", "MMS", "MUC", "MSP", "MSQ", "MSY",
+    "NBO", "NCL", "OAK", "OMA", "ORD", "OSL", "OTP", "PDX", "PEK", "PHL",
+    "PHX", "PIT", "PNQ", "PRG", "PVD", "PVG", "RDU", "ROC", "RSW", "RUH",
+    "SAN", "SAT", "SAV", "SDF", "SEA", "SFO", "SHJ", "SIN", "SJC", "SLC",
+    "SMF", "SNA", "SOF", "STL", "SVO", "SYD", "TAS", "TBS", "TPA", "TPE",
+    "TRV", "TUC", "TUS", "TUN", "VIE", "WAW", "WLG", "YYZ", "ZAG", "ZRH",
+    "GOI"
+  ]
+}
