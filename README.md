@@ -2,7 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Runtime Dependencies](https://img.shields.io/badge/dependencies-stdlib--only-brightgreen.svg)](#key-architectural-invariants)
-[![Test Suite](https://img.shields.io/badge/tests-464%20passing-brightgreen.svg)](#testing--verification)
+[![Test Suite](https://img.shields.io/badge/tests-598%20passing-brightgreen.svg)](#testing--verification)
 [![Code Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen.svg)](#testing--verification)
 [![Architecture](https://img.shields.io/badge/architecture-monotonic%20resolver-blueviolet.svg)](#core-architecture--pipeline)
 
@@ -381,7 +381,7 @@ Benchmarked on a single CPU core with uninstrumented Python 3.11:
 Run the complete test suite directly with `pytest`:
 
 ```bash
-# Run all 464 unit, integration, and fuzz tests
+# Run all 598 unit, integration, and fuzz tests
 pytest tests -v
 
 # Run with test coverage report
@@ -396,8 +396,9 @@ python try_lines.py
 
 ---
 
-## Technical Report for Downstream Teammates
+## Technical Report & Documentation for Teammates
 
-For teammates working on G2P, acoustic duration models, or vocoders, a comprehensive standalone Word guide is included in the root directory:
-- **File**: [`Text_To_Speech_Frontend_Comprehensive_Guide.docx`](Text_To_Speech_Frontend_Comprehensive_Guide.docx)
-- **Topics**: Downstream pipeline architecture, alignment span consumption recipes, phoneme dictionary preparation, and error boundary patterns.
+For teammates working on G2P, acoustic duration models, or vocoders, comprehensive technical guides are provided in both formats:
+- **Online / GitHub / VS Code Viewer (Markdown)**: [`FRONTEND_GUIDE.md`](FRONTEND_GUIDE.md) — Instant 1-click reading directly in GitHub or VS Code with formatted tables and diagrams.
+- **Standalone Word Document**: [`Text_To_Speech_Frontend_Comprehensive_Guide.docx`](Text_To_Speech_Frontend_Comprehensive_Guide.docx) — Formal engineering report for Microsoft Word / Google Docs.
+- **Key Topics**: Downstream pipeline architecture, alignment span consumption recipes, phoneme dictionary preparation, and production error boundary patterns.
