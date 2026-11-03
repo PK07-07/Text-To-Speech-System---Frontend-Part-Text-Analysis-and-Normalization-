@@ -194,8 +194,11 @@ MIXED_ALPHANUMERIC: dict[str, str] = {
 }
 
 # Regex for titles before a name: Mr., Mrs., Dr., etc.
+# Matches title with period (followed by optional whitespace and capitalized name, e.g. "Dr. Smith", "Dr.Smith")
+# or title without period (followed by at least one whitespace and capitalized name, e.g. "Dr Smith")
 TITLE_BEFORE_REGEX = re.compile(
-    r"\b(Mr\.|Mrs\.|Ms\.|Dr\.|Prof\.|Rev\.|Capt\.|Sgt\.|Lt\.|Col\.|Gen\.|Maj\.|Gov\.|Sen\.|Rep\.|Pres\.|Mr|Mrs|Ms|Dr|Prof|Rev)(?!\w)(?:\s+(?=[A-Z]))",
+    r"\b((?:Mr\.|Mrs\.|Ms\.|Dr\.|Prof\.|Rev\.|Capt\.|Sgt\.|Lt\.|Col\.|Gen\.|Maj\.|Gov\.|Sen\.|Rep\.|Pres\.)(?=\s*[A-Z])|"
+    r"(?:Mr|Mrs|Ms|Dr|Prof|Rev)(?=\s+[A-Z]))"
 )
 
 # Regex for suffixes after a name: Jr., Sr.
@@ -210,10 +213,10 @@ COMMON_ABBR_REGEX = re.compile(
 )
 
 # Regex for St. disambiguation: Saint vs Street
-ST_REGEX = re.compile(r"\b(St\.|St)(?!\w)")
+ST_REGEX = re.compile(r"\b(St\.(?=\s*[A-Z]|\W|$)|St(?!\w))")
 
 # Regex for Dr. disambiguation: Doctor vs Drive
-DR_REGEX = re.compile(r"\b(Dr\.|Dr)(?!\w)")
+DR_REGEX = re.compile(r"\b(Dr\.(?=\s*[A-Z]|\W|$)|Dr(?!\w))")
 
 # Street address suffixes without periods or with periods after name/ordinal
 STREET_SUFFIX_MAP: dict[str, str] = {

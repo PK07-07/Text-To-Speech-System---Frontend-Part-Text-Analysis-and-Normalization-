@@ -56,6 +56,24 @@ def test_undotted_titles_and_suffixes(normalizer: TextNormalizer):
         assert_transformation_invariants(raw, res)
 
 
+def test_unspaced_titles_before_capitalized_name(normalizer: TextNormalizer):
+    cases = [
+        ("Dr.Smith", "Doctor Smith"),
+        ("Mr.Smith", "Mister Smith"),
+        ("Mrs.Robinson", "Missus Robinson"),
+        ("Ms.Davis", "Ms Davis"),
+        ("Prof.Xavier", "Professor Xavier"),
+        ("St.Jude", "Saint Jude"),
+        ("I saw Dr.Smith at the clinic.", "I saw Doctor Smith at the clinic."),
+        ("Contact Mr.Jones today.", "Contact Mister Jones today."),
+    ]
+    for raw, expected in cases:
+        res = normalizer.normalize(raw)
+        assert res.normalized_text == expected
+        assert res.status == "success"
+        assert_transformation_invariants(raw, res)
+
+
 def test_disambiguation_saint_vs_street(normalizer: TextNormalizer):
     # St. before a capitalized name -> Saint
     res_saint1 = normalizer.normalize("St. Jude Hospital")
